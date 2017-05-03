@@ -69,8 +69,8 @@
       if (data.hasOwnProperty('id')) {
         obj['id'] = ApiClient.convertToType(data['id'], 'Number');
       }
-      if (data.hasOwnProperty('imageUrl')) {
-        obj['imageUrl'] = ApiClient.convertToType(data['imageUrl'], 'String');
+      if (data.hasOwnProperty('image_url')) {
+        obj['image_url'] = ApiClient.convertToType(data['image_url'], 'String');
       }
       if (data.hasOwnProperty('active')) {
         obj['active'] = ApiClient.convertToType(data['active'], 'Boolean');
@@ -78,8 +78,8 @@
       if (data.hasOwnProperty('name')) {
         obj['name'] = ApiClient.convertToType(data['name'], 'String');
       }
-      if (data.hasOwnProperty('subTitle')) {
-        obj['subTitle'] = ApiClient.convertToType(data['subTitle'], 'String');
+      if (data.hasOwnProperty('sub_title')) {
+        obj['sub_title'] = ApiClient.convertToType(data['sub_title'], 'String');
       }
       if (data.hasOwnProperty('content')) {
         obj['content'] = ApiClient.convertToType(data['content'], 'String');
@@ -87,8 +87,8 @@
       if (data.hasOwnProperty('slug')) {
         obj['slug'] = ApiClient.convertToType(data['slug'], 'String');
       }
-      if (data.hasOwnProperty('minEventsForFiltering')) {
-        obj['minEventsForFiltering'] = ApiClient.convertToType(data['minEventsForFiltering'], 'Number');
+      if (data.hasOwnProperty('min_events_for_filtering')) {
+        obj['min_events_for_filtering'] = ApiClient.convertToType(data['min_events_for_filtering'], 'Number');
       }
     }
     return obj;
@@ -99,9 +99,9 @@
    */
   exports.prototype['id'] = undefined;
   /**
-   * @member {String} imageUrl
+   * @member {String} image_url
    */
-  exports.prototype['imageUrl'] = undefined;
+  exports.prototype['image_url'] = undefined;
   /**
    * @member {Boolean} active
    */
@@ -111,9 +111,9 @@
    */
   exports.prototype['name'] = undefined;
   /**
-   * @member {String} subTitle
+   * @member {String} sub_title
    */
-  exports.prototype['subTitle'] = undefined;
+  exports.prototype['sub_title'] = undefined;
   /**
    * @member {String} content
    */
@@ -123,9 +123,9 @@
    */
   exports.prototype['slug'] = undefined;
   /**
-   * @member {Number} minEventsForFiltering
+   * @member {Number} min_events_for_filtering
    */
-  exports.prototype['minEventsForFiltering'] = undefined;
+  exports.prototype['min_events_for_filtering'] = undefined;
 
 
 

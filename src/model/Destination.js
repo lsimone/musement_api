@@ -90,8 +90,8 @@
       if (data.hasOwnProperty('name')) {
         obj['name'] = ApiClient.convertToType(data['name'], 'String');
       }
-      if (data.hasOwnProperty('canonicalUrl')) {
-        obj['canonicalUrl'] = ApiClient.convertToType(data['canonicalUrl'], 'String');
+      if (data.hasOwnProperty('canonical_url')) {
+        obj['canonical_url'] = ApiClient.convertToType(data['canonical_url'], 'String');
       }
       if (data.hasOwnProperty('phone')) {
         obj['phone'] = ApiClient.convertToType(data['phone'], 'String');
@@ -99,8 +99,8 @@
       if (data.hasOwnProperty('website')) {
         obj['website'] = ApiClient.convertToType(data['website'], 'String');
       }
-      if (data.hasOwnProperty('priceRange')) {
-        obj['priceRange'] = ApiClient.convertToType(data['priceRange'], 'Number');
+      if (data.hasOwnProperty('price_range')) {
+        obj['price_range'] = ApiClient.convertToType(data['price_range'], 'Number');
       }
       if (data.hasOwnProperty('latitude')) {
         obj['latitude'] = ApiClient.convertToType(data['latitude'], 'Number');
@@ -117,8 +117,8 @@
       if (data.hasOwnProperty('comments')) {
         obj['comments'] = ApiClient.convertToType(data['comments'], [DestinationComment]);
       }
-      if (data.hasOwnProperty('openingHours')) {
-        obj['openingHours'] = ApiClient.convertToType(data['openingHours'], ['String']);
+      if (data.hasOwnProperty('opening_hours')) {
+        obj['opening_hours'] = ApiClient.convertToType(data['opening_hours'], ['String']);
       }
       if (data.hasOwnProperty('specialities')) {
         obj['specialities'] = ApiClient.convertToType(data['specialities'], ['String']);
@@ -151,9 +151,9 @@
    */
   exports.prototype['name'] = undefined;
   /**
-   * @member {String} canonicalUrl
+   * @member {String} canonical_url
    */
-  exports.prototype['canonicalUrl'] = undefined;
+  exports.prototype['canonical_url'] = undefined;
   /**
    * @member {String} phone
    */
@@ -163,9 +163,9 @@
    */
   exports.prototype['website'] = undefined;
   /**
-   * @member {Number} priceRange
+   * @member {Number} price_range
    */
-  exports.prototype['priceRange'] = undefined;
+  exports.prototype['price_range'] = undefined;
   /**
    * @member {Number} latitude
    */
@@ -187,9 +187,9 @@
    */
   exports.prototype['comments'] = undefined;
   /**
-   * @member {Array.<String>} openingHours
+   * @member {Array.<String>} opening_hours
    */
-  exports.prototype['openingHours'] = undefined;
+  exports.prototype['opening_hours'] = undefined;
   /**
    * @member {Array.<String>} specialities
    */

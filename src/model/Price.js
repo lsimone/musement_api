@@ -67,8 +67,8 @@
       if (data.hasOwnProperty('value')) {
         obj['value'] = ApiClient.convertToType(data['value'], 'Number');
       }
-      if (data.hasOwnProperty('formattedValue')) {
-        obj['formattedValue'] = ApiClient.convertToType(data['formattedValue'], 'Number');
+      if (data.hasOwnProperty('formatted_value')) {
+        obj['formatted_value'] = ApiClient.convertToType(data['formatted_value'], 'Number');
       }
     }
     return obj;
@@ -83,9 +83,9 @@
    */
   exports.prototype['value'] = undefined;
   /**
-   * @member {Number} formattedValue
+   * @member {Number} formatted_value
    */
-  exports.prototype['formattedValue'] = undefined;
+  exports.prototype['formatted_value'] = undefined;
 
 
 

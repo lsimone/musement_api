@@ -90,14 +90,14 @@
       if (data.hasOwnProperty('saves')) {
         obj['saves'] = ApiClient.convertToType(data['saves'], 'Number');
       }
-      if (data.hasOwnProperty('listType')) {
-        obj['listType'] = ListType.constructFromObject(data['listType']);
+      if (data.hasOwnProperty('list_type')) {
+        obj['list_type'] = ListType.constructFromObject(data['list_type']);
       }
       if (data.hasOwnProperty('city')) {
         obj['city'] = City.constructFromObject(data['city']);
       }
-      if (data.hasOwnProperty('coverImageUrl')) {
-        obj['coverImageUrl'] = ApiClient.convertToType(data['coverImageUrl'], 'String');
+      if (data.hasOwnProperty('cover_image_url')) {
+        obj['cover_image_url'] = ApiClient.convertToType(data['cover_image_url'], 'String');
       }
       if (data.hasOwnProperty('verticals')) {
         obj['verticals'] = ApiClient.convertToType(data['verticals'], [Vertical]);
@@ -135,17 +135,17 @@
    */
   exports.prototype['saves'] = undefined;
   /**
-   * @member {module:model/ListType} listType
+   * @member {module:model/ListType} list_type
    */
-  exports.prototype['listType'] = undefined;
+  exports.prototype['list_type'] = undefined;
   /**
    * @member {module:model/City} city
    */
   exports.prototype['city'] = undefined;
   /**
-   * @member {String} coverImageUrl
+   * @member {String} cover_image_url
    */
-  exports.prototype['coverImageUrl'] = undefined;
+  exports.prototype['cover_image_url'] = undefined;
   /**
    * @member {Array.<module:model/Vertical>} verticals
    */

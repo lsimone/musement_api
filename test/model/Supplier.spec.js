@@ -66,13 +66,13 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property contactEmail (base name: "contactEmail")', function() {
+    it('should have the property contactEmail (base name: "contact_email")', function() {
       // uncomment below and update the code to test the property contactEmail
       //var instane = new MusementApi.Supplier();
       //expect(instance).to.be();
     });
 
-    it('should have the property contactNumber (base name: "contactNumber")', function() {
+    it('should have the property contactNumber (base name: "contact_number")', function() {
       // uncomment below and update the code to test the property contactNumber
       //var instane = new MusementApi.Supplier();
       //expect(instance).to.be();

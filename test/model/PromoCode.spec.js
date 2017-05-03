@@ -78,25 +78,25 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property maxUsage (base name: "maxUsage")', function() {
+    it('should have the property maxUsage (base name: "max_usage")', function() {
       // uncomment below and update the code to test the property maxUsage
       //var instane = new MusementApi.PromoCode();
       //expect(instance).to.be();
     });
 
-    it('should have the property validFrom (base name: "validFrom")', function() {
+    it('should have the property validFrom (base name: "valid_from")', function() {
       // uncomment below and update the code to test the property validFrom
       //var instane = new MusementApi.PromoCode();
       //expect(instance).to.be();
     });
 
-    it('should have the property validUntil (base name: "validUntil")', function() {
+    it('should have the property validUntil (base name: "valid_until")', function() {
       // uncomment below and update the code to test the property validUntil
       //var instane = new MusementApi.PromoCode();
       //expect(instance).to.be();
     });
 
-    it('should have the property minimumAmount (base name: "minimumAmount")', function() {
+    it('should have the property minimumAmount (base name: "minimum_amount")', function() {
       // uncomment below and update the code to test the property minimumAmount
       //var instane = new MusementApi.PromoCode();
       //expect(instance).to.be();

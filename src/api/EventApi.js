@@ -861,6 +861,7 @@
      * @param {Array.<Number>} opts.cityIn Filter, include only results from given cities identified by a collection of ids
      * @param {Array.<Number>} opts.notCityIn Filter, exclude results from given cities identified by a collection of ids
      * @param {Boolean} opts.active Filter, include results on an activation status basis
+     * @param {Boolean} opts.temporary Filter, include results on an temporary flag basis
      * @param {String} opts.sortBy Ordering criteria: [relevance|city_relevance], prepend &#x60;-&#x60; for descending order
      * @param {module:api/EventApi~eventsGetCallback} callback The callback function, accepting three arguments: error, data, response
      * data is of type: {@link Array.<module:model/Event>}
@@ -882,6 +883,7 @@
         'city_in': this.apiClient.buildCollectionParam(opts['cityIn'], 'multi'),
         'not_city_in': this.apiClient.buildCollectionParam(opts['notCityIn'], 'multi'),
         'active': opts['active'],
+        'temporary': opts['temporary'],
         'sort_by': opts['sortBy']
       };
       var headerParams = {

@@ -66,13 +66,13 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property isoCode (base name: "isoCode")', function() {
+    it('should have the property isoCode (base name: "iso_code")', function() {
       // uncomment below and update the code to test the property isoCode
       //var instane = new MusementApi.Country();
       //expect(instance).to.be();
     });
 
-    it('should have the property countryPrefix (base name: "countryPrefix")', function() {
+    it('should have the property countryPrefix (base name: "country_prefix")', function() {
       // uncomment below and update the code to test the property countryPrefix
       //var instane = new MusementApi.Country();
       //expect(instance).to.be();

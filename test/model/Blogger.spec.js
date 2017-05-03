@@ -78,7 +78,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property socialUrl (base name: "socialUrl")', function() {
+    it('should have the property socialUrl (base name: "social_url")', function() {
       // uncomment below and update the code to test the property socialUrl
       //var instane = new MusementApi.Blogger();
       //expect(instance).to.be();

@@ -60,7 +60,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property publicType (base name: "publicType")', function() {
+    it('should have the property publicType (base name: "public_type")', function() {
       // uncomment below and update the code to test the property publicType
       //var instane = new MusementApi.MusementListThirdpartyItem();
       //expect(instance).to.be();

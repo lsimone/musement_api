@@ -102,7 +102,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property descriptionHtml (base name: "descriptionHtml")', function() {
+    it('should have the property descriptionHtml (base name: "description_html")', function() {
       // uncomment below and update the code to test the property descriptionHtml
       //var instane = new MusementApi.Venue();
       //expect(instance).to.be();
@@ -126,13 +126,13 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property coverImageUrl (base name: "coverImageUrl")', function() {
+    it('should have the property coverImageUrl (base name: "cover_image_url")', function() {
       // uncomment below and update the code to test the property coverImageUrl
       //var instane = new MusementApi.Venue();
       //expect(instance).to.be();
     });
 
-    it('should have the property eventsCount (base name: "eventsCount")', function() {
+    it('should have the property eventsCount (base name: "events_count")', function() {
       // uncomment below and update the code to test the property eventsCount
       //var instane = new MusementApi.Venue();
       //expect(instance).to.be();
@@ -150,19 +150,19 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property showCalendar (base name: "showCalendar")', function() {
+    it('should have the property showCalendar (base name: "show_calendar")', function() {
       // uncomment below and update the code to test the property showCalendar
       //var instane = new MusementApi.Venue();
       //expect(instance).to.be();
     });
 
-    it('should have the property showFlavoursFilter (base name: "showFlavoursFilter")', function() {
+    it('should have the property showFlavoursFilter (base name: "show_flavours_filter")', function() {
       // uncomment below and update the code to test the property showFlavoursFilter
       //var instane = new MusementApi.Venue();
       //expect(instance).to.be();
     });
 
-    it('should have the property showFiltersWhenEventsCount (base name: "showFiltersWhenEventsCount")', function() {
+    it('should have the property showFiltersWhenEventsCount (base name: "show_filters_when_events_count")', function() {
       // uncomment below and update the code to test the property showFiltersWhenEventsCount
       //var instane = new MusementApi.Venue();
       //expect(instance).to.be();

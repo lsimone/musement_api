@@ -72,23 +72,23 @@
       if (data.hasOwnProperty('tickets')) {
         obj['tickets'] = ApiClient.convertToType(data['tickets'], [Ticket]);
       }
-      if (data.hasOwnProperty('discountCode')) {
-        obj['discountCode'] = ApiClient.convertToType(data['discountCode'], 'String');
+      if (data.hasOwnProperty('discount_code')) {
+        obj['discount_code'] = ApiClient.convertToType(data['discount_code'], 'String');
       }
-      if (data.hasOwnProperty('giftCard')) {
-        obj['giftCard'] = GiftCard.constructFromObject(data['giftCard']);
+      if (data.hasOwnProperty('gift_card')) {
+        obj['gift_card'] = GiftCard.constructFromObject(data['gift_card']);
       }
-      if (data.hasOwnProperty('promoCode')) {
-        obj['promoCode'] = PromoCode.constructFromObject(data['promoCode']);
+      if (data.hasOwnProperty('promo_code')) {
+        obj['promo_code'] = PromoCode.constructFromObject(data['promo_code']);
       }
       if (data.hasOwnProperty('customer')) {
         obj['customer'] = Customer.constructFromObject(data['customer']);
       }
-      if (data.hasOwnProperty('customerId')) {
-        obj['customerId'] = ApiClient.convertToType(data['customerId'], 'Number');
+      if (data.hasOwnProperty('customer_id')) {
+        obj['customer_id'] = ApiClient.convertToType(data['customer_id'], 'Number');
       }
-      if (data.hasOwnProperty('retailPrice')) {
-        obj['retailPrice'] = Price.constructFromObject(data['retailPrice']);
+      if (data.hasOwnProperty('retail_price')) {
+        obj['retail_price'] = Price.constructFromObject(data['retail_price']);
       }
     }
     return obj;
@@ -104,29 +104,29 @@
   exports.prototype['tickets'] = undefined;
   /**
    * This is used only when the cart is posted/put/patched.
-   * @member {String} discountCode
+   * @member {String} discount_code
    */
-  exports.prototype['discountCode'] = undefined;
+  exports.prototype['discount_code'] = undefined;
   /**
-   * @member {module:model/GiftCard} giftCard
+   * @member {module:model/GiftCard} gift_card
    */
-  exports.prototype['giftCard'] = undefined;
+  exports.prototype['gift_card'] = undefined;
   /**
-   * @member {module:model/PromoCode} promoCode
+   * @member {module:model/PromoCode} promo_code
    */
-  exports.prototype['promoCode'] = undefined;
+  exports.prototype['promo_code'] = undefined;
   /**
    * @member {module:model/Customer} customer
    */
   exports.prototype['customer'] = undefined;
   /**
-   * @member {Number} customerId
+   * @member {Number} customer_id
    */
-  exports.prototype['customerId'] = undefined;
+  exports.prototype['customer_id'] = undefined;
   /**
-   * @member {module:model/Price} retailPrice
+   * @member {module:model/Price} retail_price
    */
-  exports.prototype['retailPrice'] = undefined;
+  exports.prototype['retail_price'] = undefined;
 
 
 

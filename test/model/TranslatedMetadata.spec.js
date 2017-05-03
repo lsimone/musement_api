@@ -66,6 +66,12 @@
       //expect(instance).to.be();
     });
 
+    it('should have the property extra (base name: "extra")', function() {
+      // uncomment below and update the code to test the property extra
+      //var instane = new MusementApi.TranslatedMetadata();
+      //expect(instance).to.be();
+    });
+
   });
 
 }));

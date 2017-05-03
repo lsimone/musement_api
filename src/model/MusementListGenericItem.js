@@ -66,8 +66,8 @@
       if (data.hasOwnProperty('id')) {
         obj['id'] = ApiClient.convertToType(data['id'], 'Number');
       }
-      if (data.hasOwnProperty('publicType')) {
-        obj['publicType'] = ApiClient.convertToType(data['publicType'], 'String');
+      if (data.hasOwnProperty('public_type')) {
+        obj['public_type'] = ApiClient.convertToType(data['public_type'], 'String');
       }
       if (data.hasOwnProperty('title')) {
         obj['title'] = ApiClient.convertToType(data['title'], 'String');
@@ -75,8 +75,8 @@
       if (data.hasOwnProperty('description')) {
         obj['description'] = ApiClient.convertToType(data['description'], 'String');
       }
-      if (data.hasOwnProperty('genericEvent')) {
-        obj['genericEvent'] = GenericEvent.constructFromObject(data['genericEvent']);
+      if (data.hasOwnProperty('generic_event')) {
+        obj['generic_event'] = GenericEvent.constructFromObject(data['generic_event']);
       }
     }
     return obj;
@@ -87,9 +87,9 @@
    */
   exports.prototype['id'] = undefined;
   /**
-   * @member {String} publicType
+   * @member {String} public_type
    */
-  exports.prototype['publicType'] = undefined;
+  exports.prototype['public_type'] = undefined;
   /**
    * @member {String} title
    */
@@ -99,9 +99,9 @@
    */
   exports.prototype['description'] = undefined;
   /**
-   * @member {module:model/GenericEvent} genericEvent
+   * @member {module:model/GenericEvent} generic_event
    */
-  exports.prototype['genericEvent'] = undefined;
+  exports.prototype['generic_event'] = undefined;
 
 
 

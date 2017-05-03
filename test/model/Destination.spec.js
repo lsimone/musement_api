@@ -84,7 +84,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property canonicalUrl (base name: "canonicalUrl")', function() {
+    it('should have the property canonicalUrl (base name: "canonical_url")', function() {
       // uncomment below and update the code to test the property canonicalUrl
       //var instane = new MusementApi.Destination();
       //expect(instance).to.be();
@@ -102,7 +102,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property priceRange (base name: "priceRange")', function() {
+    it('should have the property priceRange (base name: "price_range")', function() {
       // uncomment below and update the code to test the property priceRange
       //var instane = new MusementApi.Destination();
       //expect(instance).to.be();
@@ -138,7 +138,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property openingHours (base name: "openingHours")', function() {
+    it('should have the property openingHours (base name: "opening_hours")', function() {
       // uncomment below and update the code to test the property openingHours
       //var instane = new MusementApi.Destination();
       //expect(instance).to.be();

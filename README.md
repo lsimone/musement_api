@@ -125,6 +125,8 @@ Class | Method | HTTP request | Description
 *MusementApi.DateApi* | [**eventsEventIdScheduleDayGet**](docs/DateApi.md#eventsEventIdScheduleDayGet) | **GET** /events/{eventId}/schedule/{day} | Get schedule for a day for an event
 *MusementApi.DateApi* | [**eventsEventIdScheduleDayGiftCodeGet**](docs/DateApi.md#eventsEventIdScheduleDayGiftCodeGet) | **GET** /events/{eventId}/schedule/{day}/{giftCode} | Get schedule for Gift and specific day
 *MusementApi.DeeplinkApi* | [**deeplinksGet**](docs/DeeplinkApi.md#deeplinksGet) | **GET** /deeplinks | Get deeplink for a specific URL
+*MusementApi.DefaultApi* | [**customersMePatch**](docs/DefaultApi.md#customersMePatch) | **PATCH** /customers/me | Patch some of the user data
+*MusementApi.DefaultApi* | [**customersMePut**](docs/DefaultApi.md#customersMePut) | **PUT** /customers/me | Update an user whole data
 *MusementApi.DeprecatedApi* | [**eventsSearchGet**](docs/DeprecatedApi.md#eventsSearchGet) | **GET** /events/search | Deprecated API for search - Use search-extended endpoint
 *MusementApi.DestinationApi* | [**destinationsDestinationIdGet**](docs/DestinationApi.md#destinationsDestinationIdGet) | **GET** /destinations/{destinationId} | Get destination by unique identifier
 *MusementApi.EditorialCategoriesApi* | [**editorialCategoriesEditorialcategoryIdFlavoursGet**](docs/EditorialCategoriesApi.md#editorialCategoriesEditorialcategoryIdFlavoursGet) | **GET** /editorial-categories/{editorialcategoryId}/flavours | Get all flavours connected to an editorial category
@@ -266,6 +268,7 @@ Class | Method | HTTP request | Description
  - [MusementApi.Page](docs/Page.md)
  - [MusementApi.PassengerInfo](docs/PassengerInfo.md)
  - [MusementApi.PassengerInfoRequest](docs/PassengerInfoRequest.md)
+ - [MusementApi.PatchCustomer](docs/PatchCustomer.md)
  - [MusementApi.PaypalPaymentRequest](docs/PaypalPaymentRequest.md)
  - [MusementApi.PostClientToken](docs/PostClientToken.md)
  - [MusementApi.Price](docs/Price.md)
@@ -274,9 +277,11 @@ Class | Method | HTTP request | Description
  - [MusementApi.ProductRequest](docs/ProductRequest.md)
  - [MusementApi.PromoCode](docs/PromoCode.md)
  - [MusementApi.PurchaseExperience](docs/PurchaseExperience.md)
+ - [MusementApi.PutCustomer](docs/PutCustomer.md)
  - [MusementApi.RedirectTo3dSecureCardIssuer](docs/RedirectTo3dSecureCardIssuer.md)
  - [MusementApi.ResponseWithMessage](docs/ResponseWithMessage.md)
  - [MusementApi.Review](docs/Review.md)
+ - [MusementApi.ReviewsAggregatedInfo](docs/ReviewsAggregatedInfo.md)
  - [MusementApi.Schedule](docs/Schedule.md)
  - [MusementApi.ScheduleGroup](docs/ScheduleGroup.md)
  - [MusementApi.ScheduleProduct](docs/ScheduleProduct.md)
@@ -295,6 +300,7 @@ Class | Method | HTTP request | Description
  - [MusementApi.Venue](docs/Venue.md)
  - [MusementApi.Vertical](docs/Vertical.md)
  - [MusementApi.VerticalAggregated](docs/VerticalAggregated.md)
+ - [MusementApi.VerticalRequest](docs/VerticalRequest.md)
  - [MusementApi.Wish](docs/Wish.md)
 
 

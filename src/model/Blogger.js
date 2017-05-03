@@ -76,8 +76,8 @@
       if (data.hasOwnProperty('avatar')) {
         obj['avatar'] = ApiClient.convertToType(data['avatar'], 'String');
       }
-      if (data.hasOwnProperty('socialUrl')) {
-        obj['socialUrl'] = ApiClient.convertToType(data['socialUrl'], 'String');
+      if (data.hasOwnProperty('social_url')) {
+        obj['social_url'] = ApiClient.convertToType(data['social_url'], 'String');
       }
       if (data.hasOwnProperty('website')) {
         obj['website'] = ApiClient.convertToType(data['website'], 'String');
@@ -103,9 +103,9 @@
    */
   exports.prototype['avatar'] = undefined;
   /**
-   * @member {String} socialUrl
+   * @member {String} social_url
    */
-  exports.prototype['socialUrl'] = undefined;
+  exports.prototype['social_url'] = undefined;
   /**
    * @member {String} website
    */

@@ -60,25 +60,25 @@
     if (data) {
       obj = obj || new exports();
 
-      if (data.hasOwnProperty('orderId')) {
-        obj['orderId'] = ApiClient.convertToType(data['orderId'], 'Number');
+      if (data.hasOwnProperty('order_id')) {
+        obj['order_id'] = ApiClient.convertToType(data['order_id'], 'Number');
       }
-      if (data.hasOwnProperty('clientIp')) {
-        obj['clientIp'] = ApiClient.convertToType(data['clientIp'], 'String');
+      if (data.hasOwnProperty('client_ip')) {
+        obj['client_ip'] = ApiClient.convertToType(data['client_ip'], 'String');
       }
     }
     return obj;
   }
 
   /**
-   * @member {Number} orderId
+   * @member {Number} order_id
    */
-  exports.prototype['orderId'] = undefined;
+  exports.prototype['order_id'] = undefined;
   /**
    * [optional] User IP address for logging purposes.
-   * @member {String} clientIp
+   * @member {String} client_ip
    */
-  exports.prototype['clientIp'] = undefined;
+  exports.prototype['client_ip'] = undefined;
 
 
 

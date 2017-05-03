@@ -66,8 +66,8 @@
     if (data) {
       obj = obj || new exports();
 
-      if (data.hasOwnProperty('blogpostCount')) {
-        obj['blogpostCount'] = ApiClient.convertToType(data['blogpostCount'], 'Number');
+      if (data.hasOwnProperty('blogpost_count')) {
+        obj['blogpost_count'] = ApiClient.convertToType(data['blogpost_count'], 'Number');
       }
       if (data.hasOwnProperty('id')) {
         obj['id'] = ApiClient.convertToType(data['id'], 'String');
@@ -84,20 +84,20 @@
       if (data.hasOwnProperty('description')) {
         obj['description'] = ApiClient.convertToType(data['description'], 'String');
       }
-      if (data.hasOwnProperty('metaTitle')) {
-        obj['metaTitle'] = ApiClient.convertToType(data['metaTitle'], 'String');
+      if (data.hasOwnProperty('meta_title')) {
+        obj['meta_title'] = ApiClient.convertToType(data['meta_title'], 'String');
       }
-      if (data.hasOwnProperty('backgroundImage')) {
-        obj['backgroundImage'] = ApiClient.convertToType(data['backgroundImage'], 'String');
+      if (data.hasOwnProperty('background_image')) {
+        obj['background_image'] = ApiClient.convertToType(data['background_image'], 'String');
       }
     }
     return obj;
   }
 
   /**
-   * @member {Number} blogpostCount
+   * @member {Number} blogpost_count
    */
-  exports.prototype['blogpostCount'] = undefined;
+  exports.prototype['blogpost_count'] = undefined;
   /**
    * @member {String} id
    */
@@ -119,13 +119,13 @@
    */
   exports.prototype['description'] = undefined;
   /**
-   * @member {String} metaTitle
+   * @member {String} meta_title
    */
-  exports.prototype['metaTitle'] = undefined;
+  exports.prototype['meta_title'] = undefined;
   /**
-   * @member {String} backgroundImage
+   * @member {String} background_image
    */
-  exports.prototype['backgroundImage'] = undefined;
+  exports.prototype['background_image'] = undefined;
 
 
 

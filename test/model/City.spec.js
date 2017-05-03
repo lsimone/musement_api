@@ -66,7 +66,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property hasConcierge (base name: "hasConcierge")', function() {
+    it('should have the property hasConcierge (base name: "has_concierge")', function() {
       // uncomment below and update the code to test the property hasConcierge
       //var instane = new MusementApi.City();
       //expect(instance).to.be();
@@ -120,7 +120,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property coverImageUrl (base name: "coverImageUrl")', function() {
+    it('should have the property coverImageUrl (base name: "cover_image_url")', function() {
       // uncomment below and update the code to test the property coverImageUrl
       //var instane = new MusementApi.City();
       //expect(instance).to.be();
@@ -132,7 +132,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property eventsCount (base name: "eventsCount")', function() {
+    it('should have the property eventsCount (base name: "events_count")', function() {
       // uncomment below and update the code to test the property eventsCount
       //var instane = new MusementApi.City();
       //expect(instance).to.be();

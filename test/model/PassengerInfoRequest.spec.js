@@ -72,7 +72,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property dateOfBirth (base name: "dateOfBirth")', function() {
+    it('should have the property dateOfBirth (base name: "date_of_birth")', function() {
       // uncomment below and update the code to test the property dateOfBirth
       //var instane = new MusementApi.PassengerInfoRequest();
       //expect(instance).to.be();
@@ -90,7 +90,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property passportExpiryDate (base name: "passportExpiryDate")', function() {
+    it('should have the property passportExpiryDate (base name: "passport_expiry_date")', function() {
       // uncomment below and update the code to test the property passportExpiryDate
       //var instane = new MusementApi.PassengerInfoRequest();
       //expect(instance).to.be();
@@ -102,7 +102,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property medicalNotes (base name: "medicalNotes")', function() {
+    it('should have the property medicalNotes (base name: "medical_notes")', function() {
       // uncomment below and update the code to test the property medicalNotes
       //var instane = new MusementApi.PassengerInfoRequest();
       //expect(instance).to.be();
@@ -114,7 +114,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property fanCard (base name: "fanCard")', function() {
+    it('should have the property fanCard (base name: "fan_card")', function() {
       // uncomment below and update the code to test the property fanCard
       //var instane = new MusementApi.PassengerInfoRequest();
       //expect(instance).to.be();

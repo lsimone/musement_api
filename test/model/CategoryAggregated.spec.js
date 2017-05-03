@@ -54,7 +54,7 @@
       //expect(instance).to.be.a(MusementApi.CategoryAggregated);
     });
 
-    it('should have the property eventCount (base name: "eventCount")', function() {
+    it('should have the property eventCount (base name: "event_count")', function() {
       // uncomment below and update the code to test the property eventCount
       //var instane = new MusementApi.CategoryAggregated();
       //expect(instance).to.be();
@@ -84,13 +84,13 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property eventImageUrl (base name: "eventImageUrl")', function() {
+    it('should have the property eventImageUrl (base name: "event_image_url")', function() {
       // uncomment below and update the code to test the property eventImageUrl
       //var instane = new MusementApi.CategoryAggregated();
       //expect(instance).to.be();
     });
 
-    it('should have the property coverImageUrl (base name: "coverImageUrl")', function() {
+    it('should have the property coverImageUrl (base name: "cover_image_url")', function() {
       // uncomment below and update the code to test the property coverImageUrl
       //var instane = new MusementApi.CategoryAggregated();
       //expect(instance).to.be();

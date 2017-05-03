@@ -66,7 +66,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property formattedValue (base name: "formattedValue")', function() {
+    it('should have the property formattedValue (base name: "formatted_value")', function() {
       // uncomment below and update the code to test the property formattedValue
       //var instane = new MusementApi.Price();
       //expect(instance).to.be();

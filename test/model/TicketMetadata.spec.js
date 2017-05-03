@@ -66,7 +66,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property extendedFields (base name: "extendedFields")', function() {
+    it('should have the property extendedFields (base name: "extended_fields")', function() {
       // uncomment below and update the code to test the property extendedFields
       //var instane = new MusementApi.TicketMetadata();
       //expect(instance).to.be();

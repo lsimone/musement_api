@@ -66,7 +66,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property discountCode (base name: "discountCode")', function() {
+    it('should have the property discountCode (base name: "discount_code")', function() {
       // uncomment below and update the code to test the property discountCode
       //var instane = new MusementApi.CartRequest();
       //expect(instance).to.be();

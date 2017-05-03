@@ -54,7 +54,7 @@
       //expect(instance).to.be.a(MusementApi.GiftScheduleFeature);
     });
 
-    it('should have the property featureCode (base name: "featureCode")', function() {
+    it('should have the property featureCode (base name: "feature_code")', function() {
       // uncomment below and update the code to test the property featureCode
       //var instane = new MusementApi.GiftScheduleFeature();
       //expect(instance).to.be();

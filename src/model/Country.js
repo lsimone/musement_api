@@ -68,11 +68,11 @@
       if (data.hasOwnProperty('name')) {
         obj['name'] = ApiClient.convertToType(data['name'], 'String');
       }
-      if (data.hasOwnProperty('isoCode')) {
-        obj['isoCode'] = ApiClient.convertToType(data['isoCode'], 'String');
+      if (data.hasOwnProperty('iso_code')) {
+        obj['iso_code'] = ApiClient.convertToType(data['iso_code'], 'String');
       }
-      if (data.hasOwnProperty('countryPrefix')) {
-        obj['countryPrefix'] = ApiClient.convertToType(data['countryPrefix'], 'String');
+      if (data.hasOwnProperty('country_prefix')) {
+        obj['country_prefix'] = ApiClient.convertToType(data['country_prefix'], 'String');
       }
     }
     return obj;
@@ -87,13 +87,13 @@
    */
   exports.prototype['name'] = undefined;
   /**
-   * @member {String} isoCode
+   * @member {String} iso_code
    */
-  exports.prototype['isoCode'] = undefined;
+  exports.prototype['iso_code'] = undefined;
   /**
-   * @member {String} countryPrefix
+   * @member {String} country_prefix
    */
-  exports.prototype['countryPrefix'] = undefined;
+  exports.prototype['country_prefix'] = undefined;
 
 
 

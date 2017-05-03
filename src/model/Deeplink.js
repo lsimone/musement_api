@@ -71,8 +71,8 @@
       if (data.hasOwnProperty('identifier')) {
         obj['identifier'] = ApiClient.convertToType(data['identifier'], 'String');
       }
-      if (data.hasOwnProperty('apiUrl')) {
-        obj['apiUrl'] = ApiClient.convertToType(data['apiUrl'], 'String');
+      if (data.hasOwnProperty('api_url')) {
+        obj['api_url'] = ApiClient.convertToType(data['api_url'], 'String');
       }
     }
     return obj;
@@ -91,9 +91,9 @@
    */
   exports.prototype['identifier'] = undefined;
   /**
-   * @member {String} apiUrl
+   * @member {String} api_url
    */
-  exports.prototype['apiUrl'] = undefined;
+  exports.prototype['api_url'] = undefined;
 
 
 

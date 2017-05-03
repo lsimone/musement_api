@@ -68,11 +68,11 @@
       if (data.hasOwnProperty('name')) {
         obj['name'] = ApiClient.convertToType(data['name'], 'String');
       }
-      if (data.hasOwnProperty('contactEmail')) {
-        obj['contactEmail'] = ApiClient.convertToType(data['contactEmail'], 'String');
+      if (data.hasOwnProperty('contact_email')) {
+        obj['contact_email'] = ApiClient.convertToType(data['contact_email'], 'String');
       }
-      if (data.hasOwnProperty('contactNumber')) {
-        obj['contactNumber'] = ApiClient.convertToType(data['contactNumber'], 'String');
+      if (data.hasOwnProperty('contact_number')) {
+        obj['contact_number'] = ApiClient.convertToType(data['contact_number'], 'String');
       }
     }
     return obj;
@@ -87,13 +87,13 @@
    */
   exports.prototype['name'] = undefined;
   /**
-   * @member {String} contactEmail
+   * @member {String} contact_email
    */
-  exports.prototype['contactEmail'] = undefined;
+  exports.prototype['contact_email'] = undefined;
   /**
-   * @member {String} contactNumber
+   * @member {String} contact_number
    */
-  exports.prototype['contactNumber'] = undefined;
+  exports.prototype['contact_number'] = undefined;
 
 
 

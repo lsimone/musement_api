@@ -60,7 +60,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property imageUrl (base name: "imageUrl")', function() {
+    it('should have the property imageUrl (base name: "image_url")', function() {
       // uncomment below and update the code to test the property imageUrl
       //var instane = new MusementApi.EditorialCategory();
       //expect(instance).to.be();
@@ -78,7 +78,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property subTitle (base name: "subTitle")', function() {
+    it('should have the property subTitle (base name: "sub_title")', function() {
       // uncomment below and update the code to test the property subTitle
       //var instane = new MusementApi.EditorialCategory();
       //expect(instance).to.be();
@@ -96,7 +96,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property minEventsForFiltering (base name: "minEventsForFiltering")', function() {
+    it('should have the property minEventsForFiltering (base name: "min_events_for_filtering")', function() {
       // uncomment below and update the code to test the property minEventsForFiltering
       //var instane = new MusementApi.EditorialCategory();
       //expect(instance).to.be();

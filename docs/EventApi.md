@@ -812,6 +812,7 @@ var opts = {
   'cityIn': [3.4], // [Number] | Filter, include only results from given cities identified by a collection of ids
   'notCityIn': [3.4], // [Number] | Filter, exclude results from given cities identified by a collection of ids
   'active': true, // Boolean | Filter, include results on an activation status basis
+  'temporary': true, // Boolean | Filter, include results on an temporary flag basis
   'sortBy': "sortBy_example" // String | Ordering criteria: [relevance|city_relevance], prepend `-` for descending order
 };
 
@@ -838,6 +839,7 @@ Name | Type | Description  | Notes
  **cityIn** | [**[Number]**](Number.md)| Filter, include only results from given cities identified by a collection of ids | [optional] 
  **notCityIn** | [**[Number]**](Number.md)| Filter, exclude results from given cities identified by a collection of ids | [optional] 
  **active** | **Boolean**| Filter, include results on an activation status basis | [optional] 
+ **temporary** | **Boolean**| Filter, include results on an temporary flag basis | [optional] 
  **sortBy** | **String**| Ordering criteria: [relevance|city_relevance], prepend &#x60;-&#x60; for descending order | [optional] 
 
 ### Return type

@@ -80,11 +80,11 @@
       if (data.hasOwnProperty('body')) {
         obj['body'] = ApiClient.convertToType(data['body'], 'String');
       }
-      if (data.hasOwnProperty('sentAt')) {
-        obj['sentAt'] = ApiClient.convertToType(data['sentAt'], 'Date');
+      if (data.hasOwnProperty('sent_at')) {
+        obj['sent_at'] = ApiClient.convertToType(data['sent_at'], 'Date');
       }
-      if (data.hasOwnProperty('approvedAt')) {
-        obj['approvedAt'] = ApiClient.convertToType(data['approvedAt'], 'Date');
+      if (data.hasOwnProperty('approved_at')) {
+        obj['approved_at'] = ApiClient.convertToType(data['approved_at'], 'Date');
       }
     }
     return obj;
@@ -111,13 +111,13 @@
    */
   exports.prototype['body'] = undefined;
   /**
-   * @member {Date} sentAt
+   * @member {Date} sent_at
    */
-  exports.prototype['sentAt'] = undefined;
+  exports.prototype['sent_at'] = undefined;
   /**
-   * @member {Date} approvedAt
+   * @member {Date} approved_at
    */
-  exports.prototype['approvedAt'] = undefined;
+  exports.prototype['approved_at'] = undefined;
 
 
 

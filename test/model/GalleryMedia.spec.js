@@ -78,7 +78,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property externalIdentifier (base name: "externalIdentifier")', function() {
+    it('should have the property externalIdentifier (base name: "external_identifier")', function() {
       // uncomment below and update the code to test the property externalIdentifier
       //var instane = new MusementApi.GalleryMedia();
       //expect(instance).to.be();

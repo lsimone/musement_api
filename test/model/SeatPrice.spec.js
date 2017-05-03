@@ -66,31 +66,31 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property priceTag (base name: "priceTag")', function() {
+    it('should have the property priceTag (base name: "price_tag")', function() {
       // uncomment below and update the code to test the property priceTag
       //var instane = new MusementApi.SeatPrice();
       //expect(instance).to.be();
     });
 
-    it('should have the property rawPrice (base name: "rawPrice")', function() {
+    it('should have the property rawPrice (base name: "raw_price")', function() {
       // uncomment below and update the code to test the property rawPrice
       //var instane = new MusementApi.SeatPrice();
       //expect(instance).to.be();
     });
 
-    it('should have the property discountAmount (base name: "discountAmount")', function() {
+    it('should have the property discountAmount (base name: "discount_amount")', function() {
       // uncomment below and update the code to test the property discountAmount
       //var instane = new MusementApi.SeatPrice();
       //expect(instance).to.be();
     });
 
-    it('should have the property retailPrice (base name: "retailPrice")', function() {
+    it('should have the property retailPrice (base name: "retail_price")', function() {
       // uncomment below and update the code to test the property retailPrice
       //var instane = new MusementApi.SeatPrice();
       //expect(instance).to.be();
     });
 
-    it('should have the property serviceFee (base name: "serviceFee")', function() {
+    it('should have the property serviceFee (base name: "service_fee")', function() {
       // uncomment below and update the code to test the property serviceFee
       //var instane = new MusementApi.SeatPrice();
       //expect(instance).to.be();

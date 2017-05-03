@@ -78,8 +78,8 @@
       if (data.hasOwnProperty('top')) {
         obj['top'] = ApiClient.convertToType(data['top'], 'Boolean');
       }
-      if (data.hasOwnProperty('hasConcierge')) {
-        obj['hasConcierge'] = ApiClient.convertToType(data['hasConcierge'], 'Boolean');
+      if (data.hasOwnProperty('has_concierge')) {
+        obj['has_concierge'] = ApiClient.convertToType(data['has_concierge'], 'Boolean');
       }
       if (data.hasOwnProperty('name')) {
         obj['name'] = ApiClient.convertToType(data['name'], 'String');
@@ -105,14 +105,14 @@
       if (data.hasOwnProperty('country')) {
         obj['country'] = Country.constructFromObject(data['country']);
       }
-      if (data.hasOwnProperty('coverImageUrl')) {
-        obj['coverImageUrl'] = ApiClient.convertToType(data['coverImageUrl'], 'String');
+      if (data.hasOwnProperty('cover_image_url')) {
+        obj['cover_image_url'] = ApiClient.convertToType(data['cover_image_url'], 'String');
       }
       if (data.hasOwnProperty('url')) {
         obj['url'] = ApiClient.convertToType(data['url'], 'String');
       }
-      if (data.hasOwnProperty('eventsCount')) {
-        obj['eventsCount'] = ApiClient.convertToType(data['eventsCount'], 'Number');
+      if (data.hasOwnProperty('events_count')) {
+        obj['events_count'] = ApiClient.convertToType(data['events_count'], 'Number');
       }
     }
     return obj;
@@ -129,9 +129,9 @@
   exports.prototype['top'] = undefined;
   /**
    * True for cities with Musement's concierge service active
-   * @member {Boolean} hasConcierge
+   * @member {Boolean} has_concierge
    */
-  exports.prototype['hasConcierge'] = undefined;
+  exports.prototype['has_concierge'] = undefined;
   /**
    * City name
    * @member {String} name
@@ -168,18 +168,18 @@
    */
   exports.prototype['country'] = undefined;
   /**
-   * @member {String} coverImageUrl
+   * @member {String} cover_image_url
    */
-  exports.prototype['coverImageUrl'] = undefined;
+  exports.prototype['cover_image_url'] = undefined;
   /**
    * @member {String} url
    */
   exports.prototype['url'] = undefined;
   /**
    * Number of active events
-   * @member {Number} eventsCount
+   * @member {Number} events_count
    */
-  exports.prototype['eventsCount'] = undefined;
+  exports.prototype['events_count'] = undefined;
 
 
 

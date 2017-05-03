@@ -67,74 +67,74 @@
     if (data) {
       obj = obj || new exports();
 
-      if (data.hasOwnProperty('eventId')) {
-        obj['eventId'] = ApiClient.convertToType(data['eventId'], 'Number');
+      if (data.hasOwnProperty('event_id')) {
+        obj['event_id'] = ApiClient.convertToType(data['event_id'], 'Number');
       }
-      if (data.hasOwnProperty('donorName')) {
-        obj['donorName'] = ApiClient.convertToType(data['donorName'], 'String');
+      if (data.hasOwnProperty('donor_name')) {
+        obj['donor_name'] = ApiClient.convertToType(data['donor_name'], 'String');
       }
       if (data.hasOwnProperty('message')) {
         obj['message'] = ApiClient.convertToType(data['message'], 'String');
       }
-      if (data.hasOwnProperty('pictureUrl')) {
-        obj['pictureUrl'] = ApiClient.convertToType(data['pictureUrl'], 'String');
+      if (data.hasOwnProperty('picture_url')) {
+        obj['picture_url'] = ApiClient.convertToType(data['picture_url'], 'String');
       }
       if (data.hasOwnProperty('print')) {
         obj['print'] = ApiClient.convertToType(data['print'], 'Boolean');
       }
-      if (data.hasOwnProperty('recipientEmail')) {
-        obj['recipientEmail'] = ApiClient.convertToType(data['recipientEmail'], 'String');
+      if (data.hasOwnProperty('recipient_email')) {
+        obj['recipient_email'] = ApiClient.convertToType(data['recipient_email'], 'String');
       }
-      if (data.hasOwnProperty('recipientName')) {
-        obj['recipientName'] = ApiClient.convertToType(data['recipientName'], 'String');
+      if (data.hasOwnProperty('recipient_name')) {
+        obj['recipient_name'] = ApiClient.convertToType(data['recipient_name'], 'String');
       }
-      if (data.hasOwnProperty('featureCode')) {
-        obj['featureCode'] = ApiClient.convertToType(data['featureCode'], 'String');
+      if (data.hasOwnProperty('feature_code')) {
+        obj['feature_code'] = ApiClient.convertToType(data['feature_code'], 'String');
       }
-      if (data.hasOwnProperty('productsWithQuantities')) {
-        obj['productsWithQuantities'] = ApiClient.convertToType(data['productsWithQuantities'], [GiftCreationProductWithQuantity]);
+      if (data.hasOwnProperty('products_with_quantities')) {
+        obj['products_with_quantities'] = ApiClient.convertToType(data['products_with_quantities'], [GiftCreationProductWithQuantity]);
       }
     }
     return obj;
   }
 
   /**
-   * @member {Number} eventId
+   * @member {Number} event_id
    */
-  exports.prototype['eventId'] = undefined;
+  exports.prototype['event_id'] = undefined;
   /**
-   * @member {String} donorName
+   * @member {String} donor_name
    */
-  exports.prototype['donorName'] = undefined;
+  exports.prototype['donor_name'] = undefined;
   /**
    * @member {String} message
    */
   exports.prototype['message'] = undefined;
   /**
-   * @member {String} pictureUrl
+   * @member {String} picture_url
    */
-  exports.prototype['pictureUrl'] = undefined;
+  exports.prototype['picture_url'] = undefined;
   /**
    * @member {Boolean} print
    */
   exports.prototype['print'] = undefined;
   /**
    * Optional if print is true.
-   * @member {String} recipientEmail
+   * @member {String} recipient_email
    */
-  exports.prototype['recipientEmail'] = undefined;
+  exports.prototype['recipient_email'] = undefined;
   /**
-   * @member {String} recipientName
+   * @member {String} recipient_name
    */
-  exports.prototype['recipientName'] = undefined;
+  exports.prototype['recipient_name'] = undefined;
   /**
-   * @member {String} featureCode
+   * @member {String} feature_code
    */
-  exports.prototype['featureCode'] = undefined;
+  exports.prototype['feature_code'] = undefined;
   /**
-   * @member {Array.<module:model/GiftCreationProductWithQuantity>} productsWithQuantities
+   * @member {Array.<module:model/GiftCreationProductWithQuantity>} products_with_quantities
    */
-  exports.prototype['productsWithQuantities'] = undefined;
+  exports.prototype['products_with_quantities'] = undefined;
 
 
 

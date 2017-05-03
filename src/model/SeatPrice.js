@@ -72,20 +72,20 @@
       if (data.hasOwnProperty('event')) {
         obj['event'] = Event.constructFromObject(data['event']);
       }
-      if (data.hasOwnProperty('priceTag')) {
-        obj['priceTag'] = Pricetag.constructFromObject(data['priceTag']);
+      if (data.hasOwnProperty('price_tag')) {
+        obj['price_tag'] = Pricetag.constructFromObject(data['price_tag']);
       }
-      if (data.hasOwnProperty('rawPrice')) {
-        obj['rawPrice'] = Price.constructFromObject(data['rawPrice']);
+      if (data.hasOwnProperty('raw_price')) {
+        obj['raw_price'] = Price.constructFromObject(data['raw_price']);
       }
-      if (data.hasOwnProperty('discountAmount')) {
-        obj['discountAmount'] = Price.constructFromObject(data['discountAmount']);
+      if (data.hasOwnProperty('discount_amount')) {
+        obj['discount_amount'] = Price.constructFromObject(data['discount_amount']);
       }
-      if (data.hasOwnProperty('retailPrice')) {
-        obj['retailPrice'] = Price.constructFromObject(data['retailPrice']);
+      if (data.hasOwnProperty('retail_price')) {
+        obj['retail_price'] = Price.constructFromObject(data['retail_price']);
       }
-      if (data.hasOwnProperty('serviceFee')) {
-        obj['serviceFee'] = Price.constructFromObject(data['serviceFee']);
+      if (data.hasOwnProperty('service_fee')) {
+        obj['service_fee'] = Price.constructFromObject(data['service_fee']);
       }
       if (data.hasOwnProperty('datetime')) {
         obj['datetime'] = ApiClient.convertToType(data['datetime'], 'Number');
@@ -103,28 +103,28 @@
    */
   exports.prototype['event'] = undefined;
   /**
-   * @member {module:model/Pricetag} priceTag
+   * @member {module:model/Pricetag} price_tag
    */
-  exports.prototype['priceTag'] = undefined;
+  exports.prototype['price_tag'] = undefined;
   /**
    * This is the price to the user without any discount applied. (same currency as retailPrice)
-   * @member {module:model/Price} rawPrice
+   * @member {module:model/Price} raw_price
    */
-  exports.prototype['rawPrice'] = undefined;
+  exports.prototype['raw_price'] = undefined;
   /**
    * Amount of discount in same currency as retailPrice (only SeatPrice.discount used because its not in Cart)
-   * @member {module:model/Price} discountAmount
+   * @member {module:model/Price} discount_amount
    */
-  exports.prototype['discountAmount'] = undefined;
+  exports.prototype['discount_amount'] = undefined;
   /**
    * Price with discount applied (only SeatPrice.discount used because its not in Cart)
-   * @member {module:model/Price} retailPrice
+   * @member {module:model/Price} retail_price
    */
-  exports.prototype['retailPrice'] = undefined;
+  exports.prototype['retail_price'] = undefined;
   /**
-   * @member {module:model/Price} serviceFee
+   * @member {module:model/Price} service_fee
    */
-  exports.prototype['serviceFee'] = undefined;
+  exports.prototype['service_fee'] = undefined;
   /**
    * @member {Number} datetime
    */

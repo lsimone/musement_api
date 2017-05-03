@@ -47,6 +47,7 @@
 
 
 
+
   };
 
   /**
@@ -66,6 +67,9 @@
       if (data.hasOwnProperty('name')) {
         obj['name'] = ApiClient.convertToType(data['name'], 'String');
       }
+      if (data.hasOwnProperty('extra')) {
+        obj['extra'] = ApiClient.convertToType(data['extra'], ['String']);
+      }
     }
     return obj;
   }
@@ -78,6 +82,10 @@
    * @member {String} name
    */
   exports.prototype['name'] = undefined;
+  /**
+   * @member {Array.<String>} extra
+   */
+  exports.prototype['extra'] = undefined;
 
 
 

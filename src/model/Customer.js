@@ -76,8 +76,8 @@
       if (data.hasOwnProperty('id')) {
         obj['id'] = ApiClient.convertToType(data['id'], 'Number');
       }
-      if (data.hasOwnProperty('registrationType')) {
-        obj['registrationType'] = ApiClient.convertToType(data['registrationType'], 'String');
+      if (data.hasOwnProperty('registration_type')) {
+        obj['registration_type'] = ApiClient.convertToType(data['registration_type'], 'String');
       }
       if (data.hasOwnProperty('password')) {
         obj['password'] = ApiClient.convertToType(data['password'], 'String');
@@ -127,9 +127,9 @@
    */
   exports.prototype['id'] = undefined;
   /**
-   * @member {String} registrationType
+   * @member {String} registration_type
    */
-  exports.prototype['registrationType'] = undefined;
+  exports.prototype['registration_type'] = undefined;
   /**
    * @member {String} password
    */

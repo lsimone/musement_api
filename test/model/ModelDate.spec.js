@@ -60,7 +60,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property soldOut (base name: "soldOut")', function() {
+    it('should have the property soldOut (base name: "sold_out")', function() {
       // uncomment below and update the code to test the property soldOut
       //var instane = new MusementApi.ModelDate();
       //expect(instance).to.be();
@@ -72,13 +72,13 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property discountedPrice (base name: "discountedPrice")', function() {
+    it('should have the property discountedPrice (base name: "discounted_price")', function() {
       // uncomment below and update the code to test the property discountedPrice
       //var instane = new MusementApi.ModelDate();
       //expect(instance).to.be();
     });
 
-    it('should have the property discountAmount (base name: "discountAmount")', function() {
+    it('should have the property discountAmount (base name: "discount_amount")', function() {
       // uncomment below and update the code to test the property discountAmount
       //var instane = new MusementApi.ModelDate();
       //expect(instance).to.be();

@@ -63,8 +63,8 @@
     if (data) {
       obj = obj || new exports();
 
-      if (data.hasOwnProperty('featureCode')) {
-        obj['featureCode'] = ApiClient.convertToType(data['featureCode'], 'String');
+      if (data.hasOwnProperty('feature_code')) {
+        obj['feature_code'] = ApiClient.convertToType(data['feature_code'], 'String');
       }
       if (data.hasOwnProperty('name')) {
         obj['name'] = ApiClient.convertToType(data['name'], 'String');
@@ -83,9 +83,9 @@
   }
 
   /**
-   * @member {String} featureCode
+   * @member {String} feature_code
    */
-  exports.prototype['featureCode'] = undefined;
+  exports.prototype['feature_code'] = undefined;
   /**
    * Name (label) of Feature.
    * @member {String} name

@@ -66,13 +66,13 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property priceFeature (base name: "priceFeature")', function() {
+    it('should have the property priceFeature (base name: "price_feature")', function() {
       // uncomment below and update the code to test the property priceFeature
       //var instane = new MusementApi.Pricetag();
       //expect(instance).to.be();
     });
 
-    it('should have the property ticketHolder (base name: "ticketHolder")', function() {
+    it('should have the property ticketHolder (base name: "ticket_holder")', function() {
       // uncomment below and update the code to test the property ticketHolder
       //var instane = new MusementApi.Pricetag();
       //expect(instance).to.be();

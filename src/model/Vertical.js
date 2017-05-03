@@ -82,14 +82,14 @@
       if (data.hasOwnProperty('slug')) {
         obj['slug'] = ApiClient.convertToType(data['slug'], 'String');
       }
-      if (data.hasOwnProperty('sectionTitle')) {
-        obj['sectionTitle'] = ApiClient.convertToType(data['sectionTitle'], 'String');
+      if (data.hasOwnProperty('section_title')) {
+        obj['section_title'] = ApiClient.convertToType(data['section_title'], 'String');
       }
-      if (data.hasOwnProperty('coverImageUrl')) {
-        obj['coverImageUrl'] = ApiClient.convertToType(data['coverImageUrl'], 'String');
+      if (data.hasOwnProperty('cover_image_url')) {
+        obj['cover_image_url'] = ApiClient.convertToType(data['cover_image_url'], 'String');
       }
-      if (data.hasOwnProperty('topEvents')) {
-        obj['topEvents'] = ApiClient.convertToType(data['topEvents'], [Event]);
+      if (data.hasOwnProperty('top_events')) {
+        obj['top_events'] = ApiClient.convertToType(data['top_events'], [Event]);
       }
       if (data.hasOwnProperty('relevance')) {
         obj['relevance'] = ApiClient.convertToType(data['relevance'], 'Number');
@@ -119,17 +119,17 @@
    */
   exports.prototype['slug'] = undefined;
   /**
-   * @member {String} sectionTitle
+   * @member {String} section_title
    */
-  exports.prototype['sectionTitle'] = undefined;
+  exports.prototype['section_title'] = undefined;
   /**
-   * @member {String} coverImageUrl
+   * @member {String} cover_image_url
    */
-  exports.prototype['coverImageUrl'] = undefined;
+  exports.prototype['cover_image_url'] = undefined;
   /**
-   * @member {Array.<module:model/Event>} topEvents
+   * @member {Array.<module:model/Event>} top_events
    */
-  exports.prototype['topEvents'] = undefined;
+  exports.prototype['top_events'] = undefined;
   /**
    * @member {Number} relevance
    */

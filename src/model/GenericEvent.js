@@ -75,11 +75,11 @@
       if (data.hasOwnProperty('id')) {
         obj['id'] = ApiClient.convertToType(data['id'], 'Number');
       }
-      if (data.hasOwnProperty('whereIs')) {
-        obj['whereIs'] = ApiClient.convertToType(data['whereIs'], 'String');
+      if (data.hasOwnProperty('where_is')) {
+        obj['where_is'] = ApiClient.convertToType(data['where_is'], 'String');
       }
-      if (data.hasOwnProperty('whenIs')) {
-        obj['whenIs'] = ApiClient.convertToType(data['whenIs'], 'String');
+      if (data.hasOwnProperty('when_is')) {
+        obj['when_is'] = ApiClient.convertToType(data['when_is'], 'String');
       }
       if (data.hasOwnProperty('latitude')) {
         obj['latitude'] = ApiClient.convertToType(data['latitude'], 'Number');
@@ -123,13 +123,13 @@
    */
   exports.prototype['id'] = undefined;
   /**
-   * @member {String} whereIs
+   * @member {String} where_is
    */
-  exports.prototype['whereIs'] = undefined;
+  exports.prototype['where_is'] = undefined;
   /**
-   * @member {String} whenIs
+   * @member {String} when_is
    */
-  exports.prototype['whenIs'] = undefined;
+  exports.prototype['when_is'] = undefined;
   /**
    * @member {Number} latitude
    */

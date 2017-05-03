@@ -54,7 +54,7 @@
       //expect(instance).to.be.a(MusementApi.GiftCreationProductWithQuantity);
     });
 
-    it('should have the property holderCode (base name: "holderCode")', function() {
+    it('should have the property holderCode (base name: "holder_code")', function() {
       // uncomment below and update the code to test the property holderCode
       //var instane = new MusementApi.GiftCreationProductWithQuantity();
       //expect(instance).to.be();

@@ -67,8 +67,8 @@
       if (data.hasOwnProperty('note')) {
         obj['note'] = ApiClient.convertToType(data['note'], 'String');
       }
-      if (data.hasOwnProperty('extendedFields')) {
-        obj['extendedFields'] = ApiClient.convertToType(data['extendedFields'], ['String']);
+      if (data.hasOwnProperty('extended_fields')) {
+        obj['extended_fields'] = ApiClient.convertToType(data['extended_fields'], ['String']);
       }
     }
     return obj;
@@ -83,9 +83,9 @@
    */
   exports.prototype['note'] = undefined;
   /**
-   * @member {Array.<String>} extendedFields
+   * @member {Array.<String>} extended_fields
    */
-  exports.prototype['extendedFields'] = undefined;
+  exports.prototype['extended_fields'] = undefined;
 
 
 

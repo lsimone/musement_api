@@ -78,13 +78,13 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property touristCategory (base name: "touristCategory")', function() {
+    it('should have the property touristCategory (base name: "tourist_category")', function() {
       // uncomment below and update the code to test the property touristCategory
       //var instane = new MusementApi.Product();
       //expect(instance).to.be();
     });
 
-    it('should have the property activityName (base name: "activityName")', function() {
+    it('should have the property activityName (base name: "activity_name")', function() {
       // uncomment below and update the code to test the property activityName
       //var instane = new MusementApi.Product();
       //expect(instance).to.be();
@@ -102,19 +102,19 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property finalPrice (base name: "finalPrice")', function() {
+    it('should have the property finalPrice (base name: "final_price")', function() {
       // uncomment below and update the code to test the property finalPrice
       //var instane = new MusementApi.Product();
       //expect(instance).to.be();
     });
 
-    it('should have the property discountAmount (base name: "discountAmount")', function() {
+    it('should have the property discountAmount (base name: "discount_amount")', function() {
       // uncomment below and update the code to test the property discountAmount
       //var instane = new MusementApi.Product();
       //expect(instance).to.be();
     });
 
-    it('should have the property serviceFee (base name: "serviceFee")', function() {
+    it('should have the property serviceFee (base name: "service_fee")', function() {
       // uncomment below and update the code to test the property serviceFee
       //var instane = new MusementApi.Product();
       //expect(instance).to.be();

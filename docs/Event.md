@@ -21,6 +21,8 @@ Name | Type | Description | Notes
 **aboutHtml** | **String** |  | [optional] 
 **meetingPoint** | **String** |  | [optional] 
 **openingHours** | **String** |  | [optional] 
+**duration** | **String** |  | [optional] 
+**validity** | **String** |  | [optional] 
 **numberedSeats** | **Boolean** |  | [optional] 
 **hasPriceInfoOnDate** | **Boolean** | If true the call GET /events/{id}/dates returns prices for each day. | [optional] 
 **open** | **Boolean** | Define if the Event is with open dates entrance (aka: Event::isOpenTicket). | [optional] 
@@ -53,7 +55,7 @@ Name | Type | Description | Notes
 **categories** | [**[Category]**](Category.md) |  | [optional] 
 **reviewsNumber** | **Number** |  | [optional] 
 **reviewsAvg** | **Number** |  | [optional] 
-**reviewsAggregatedInfo** | **[String]** |  | [optional] 
+**reviewsAggregatedInfo** | [**ReviewsAggregatedInfo**](ReviewsAggregatedInfo.md) |  | [optional] 
 **latitude** | **Number** |  | [optional] 
 **longitude** | **Number** |  | [optional] 
 **url** | **String** |  | [optional] 
@@ -66,6 +68,7 @@ Name | Type | Description | Notes
 **giftable** | **Boolean** |  | [optional] 
 **hasPassengerInfo** | **Boolean** |  | [optional] 
 **hasExtraCustomerData** | **Boolean** |  | [optional] 
+**buyMultiplier** | **Number** |  | [optional] 
 **realtimeCapable** | **Boolean** | Define if the Event is \&quot;realtimeCapable\&quot;. | [optional] 
 
 

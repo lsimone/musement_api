@@ -54,7 +54,7 @@
       //expect(instance).to.be.a(MusementApi.CustomerRequest);
     });
 
-    it('should have the property favouriteCity (base name: "favouriteCity")', function() {
+    it('should have the property favouriteCity (base name: "favourite_city")', function() {
       // uncomment below and update the code to test the property favouriteCity
       //var instane = new MusementApi.CustomerRequest();
       //expect(instance).to.be();
@@ -108,7 +108,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property idNumber (base name: "idNumber")', function() {
+    it('should have the property idNumber (base name: "id_number")', function() {
       // uncomment below and update the code to test the property idNumber
       //var instane = new MusementApi.CustomerRequest();
       //expect(instance).to.be();
@@ -126,7 +126,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property vatNumber (base name: "vatNumber")', function() {
+    it('should have the property vatNumber (base name: "vat_number")', function() {
       // uncomment below and update the code to test the property vatNumber
       //var instane = new MusementApi.CustomerRequest();
       //expect(instance).to.be();

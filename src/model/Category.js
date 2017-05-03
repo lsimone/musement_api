@@ -77,11 +77,11 @@
       if (data.hasOwnProperty('code')) {
         obj['code'] = ApiClient.convertToType(data['code'], 'String');
       }
-      if (data.hasOwnProperty('eventImageUrl')) {
-        obj['eventImageUrl'] = ApiClient.convertToType(data['eventImageUrl'], 'String');
+      if (data.hasOwnProperty('event_image_url')) {
+        obj['event_image_url'] = ApiClient.convertToType(data['event_image_url'], 'String');
       }
-      if (data.hasOwnProperty('coverImageUrl')) {
-        obj['coverImageUrl'] = ApiClient.convertToType(data['coverImageUrl'], 'String');
+      if (data.hasOwnProperty('cover_image_url')) {
+        obj['cover_image_url'] = ApiClient.convertToType(data['cover_image_url'], 'String');
       }
       if (data.hasOwnProperty('url')) {
         obj['url'] = ApiClient.convertToType(data['url'], 'String');
@@ -107,13 +107,13 @@
    */
   exports.prototype['code'] = undefined;
   /**
-   * @member {String} eventImageUrl
+   * @member {String} event_image_url
    */
-  exports.prototype['eventImageUrl'] = undefined;
+  exports.prototype['event_image_url'] = undefined;
   /**
-   * @member {String} coverImageUrl
+   * @member {String} cover_image_url
    */
-  exports.prototype['coverImageUrl'] = undefined;
+  exports.prototype['cover_image_url'] = undefined;
   /**
    * @member {String} url
    */

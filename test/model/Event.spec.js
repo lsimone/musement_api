@@ -84,37 +84,37 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property relevanceVenue (base name: "relevanceVenue")', function() {
+    it('should have the property relevanceVenue (base name: "relevance_venue")', function() {
       // uncomment below and update the code to test the property relevanceVenue
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
     });
 
-    it('should have the property maxConfirmationTime (base name: "maxConfirmationTime")', function() {
+    it('should have the property maxConfirmationTime (base name: "max_confirmation_time")', function() {
       // uncomment below and update the code to test the property maxConfirmationTime
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
     });
 
-    it('should have the property mustSee (base name: "mustSee")', function() {
+    it('should have the property mustSee (base name: "must_see")', function() {
       // uncomment below and update the code to test the property mustSee
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
     });
 
-    it('should have the property lastChance (base name: "lastChance")', function() {
+    it('should have the property lastChance (base name: "last_chance")', function() {
       // uncomment below and update the code to test the property lastChance
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
     });
 
-    it('should have the property topSeller (base name: "topSeller")', function() {
+    it('should have the property topSeller (base name: "top_seller")', function() {
       // uncomment below and update the code to test the property topSeller
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
     });
 
-    it('should have the property printVoucher (base name: "printVoucher")', function() {
+    it('should have the property printVoucher (base name: "print_voucher")', function() {
       // uncomment below and update the code to test the property printVoucher
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
@@ -138,37 +138,49 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property aboutMarkdown (base name: "aboutMarkdown")', function() {
+    it('should have the property aboutMarkdown (base name: "about_markdown")', function() {
       // uncomment below and update the code to test the property aboutMarkdown
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
     });
 
-    it('should have the property aboutHtml (base name: "aboutHtml")', function() {
+    it('should have the property aboutHtml (base name: "about_html")', function() {
       // uncomment below and update the code to test the property aboutHtml
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
     });
 
-    it('should have the property meetingPoint (base name: "meetingPoint")', function() {
+    it('should have the property meetingPoint (base name: "meeting_point")', function() {
       // uncomment below and update the code to test the property meetingPoint
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
     });
 
-    it('should have the property openingHours (base name: "openingHours")', function() {
+    it('should have the property openingHours (base name: "opening_hours")', function() {
       // uncomment below and update the code to test the property openingHours
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
     });
 
-    it('should have the property numberedSeats (base name: "numberedSeats")', function() {
+    it('should have the property duration (base name: "duration")', function() {
+      // uncomment below and update the code to test the property duration
+      //var instane = new MusementApi.Event();
+      //expect(instance).to.be();
+    });
+
+    it('should have the property validity (base name: "validity")', function() {
+      // uncomment below and update the code to test the property validity
+      //var instane = new MusementApi.Event();
+      //expect(instance).to.be();
+    });
+
+    it('should have the property numberedSeats (base name: "numbered_seats")', function() {
       // uncomment below and update the code to test the property numberedSeats
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
     });
 
-    it('should have the property hasPriceInfoOnDate (base name: "hasPriceInfoOnDate")', function() {
+    it('should have the property hasPriceInfoOnDate (base name: "has_price_info_on_date")', function() {
       // uncomment below and update the code to test the property hasPriceInfoOnDate
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
@@ -180,19 +192,19 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property ticketNotIncluded (base name: "ticketNotIncluded")', function() {
+    it('should have the property ticketNotIncluded (base name: "ticket_not_included")', function() {
       // uncomment below and update the code to test the property ticketNotIncluded
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
     });
 
-    it('should have the property likelyToSellOut (base name: "likelyToSellOut")', function() {
+    it('should have the property likelyToSellOut (base name: "likely_to_sell_out")', function() {
       // uncomment below and update the code to test the property likelyToSellOut
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
     });
 
-    it('should have the property specialOffer (base name: "specialOffer")', function() {
+    it('should have the property specialOffer (base name: "special_offer")', function() {
       // uncomment below and update the code to test the property specialOffer
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
@@ -204,13 +216,13 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property includedHotelNightNumber (base name: "includedHotelNightNumber")', function() {
+    it('should have the property includedHotelNightNumber (base name: "included_hotel_night_number")', function() {
       // uncomment below and update the code to test the property includedHotelNightNumber
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
     });
 
-    it('should have the property greenFeeDays (base name: "greenFeeDays")', function() {
+    it('should have the property greenFeeDays (base name: "green_fee_days")', function() {
       // uncomment below and update the code to test the property greenFeeDays
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
@@ -228,7 +240,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property groupSize (base name: "groupSize")', function() {
+    it('should have the property groupSize (base name: "group_size")', function() {
       // uncomment below and update the code to test the property groupSize
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
@@ -270,55 +282,55 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property notIncluded (base name: "notIncluded")', function() {
+    it('should have the property notIncluded (base name: "not_included")', function() {
       // uncomment below and update the code to test the property notIncluded
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
     });
 
-    it('should have the property isAvailableToday (base name: "isAvailableToday")', function() {
+    it('should have the property isAvailableToday (base name: "is_available_today")', function() {
       // uncomment below and update the code to test the property isAvailableToday
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
     });
 
-    it('should have the property isAvailableTomorrow (base name: "isAvailableTomorrow")', function() {
+    it('should have the property isAvailableTomorrow (base name: "is_available_tomorrow")', function() {
       // uncomment below and update the code to test the property isAvailableTomorrow
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
     });
 
-    it('should have the property hasMultipleOptions (base name: "hasMultipleOptions")', function() {
+    it('should have the property hasMultipleOptions (base name: "has_multiple_options")', function() {
       // uncomment below and update the code to test the property hasMultipleOptions
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
     });
 
-    it('should have the property coverImageUrl (base name: "coverImageUrl")', function() {
+    it('should have the property coverImageUrl (base name: "cover_image_url")', function() {
       // uncomment below and update the code to test the property coverImageUrl
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
     });
 
-    it('should have the property extraMediaUrl (base name: "extraMediaUrl")', function() {
+    it('should have the property extraMediaUrl (base name: "extra_media_url")', function() {
       // uncomment below and update the code to test the property extraMediaUrl
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
     });
 
-    it('should have the property retailPrice (base name: "retailPrice")', function() {
+    it('should have the property retailPrice (base name: "retail_price")', function() {
       // uncomment below and update the code to test the property retailPrice
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
     });
 
-    it('should have the property netPrice (base name: "netPrice")', function() {
+    it('should have the property netPrice (base name: "net_price")', function() {
       // uncomment below and update the code to test the property netPrice
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
     });
 
-    it('should have the property bundledPrice (base name: "bundledPrice")', function() {
+    it('should have the property bundledPrice (base name: "bundled_price")', function() {
       // uncomment below and update the code to test the property bundledPrice
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
@@ -342,19 +354,19 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property reviewsNumber (base name: "reviewsNumber")', function() {
+    it('should have the property reviewsNumber (base name: "reviews_number")', function() {
       // uncomment below and update the code to test the property reviewsNumber
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
     });
 
-    it('should have the property reviewsAvg (base name: "reviewsAvg")', function() {
+    it('should have the property reviewsAvg (base name: "reviews_avg")', function() {
       // uncomment below and update the code to test the property reviewsAvg
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
     });
 
-    it('should have the property reviewsAggregatedInfo (base name: "reviewsAggregatedInfo")', function() {
+    it('should have the property reviewsAggregatedInfo (base name: "reviews_aggregated_info")', function() {
       // uncomment below and update the code to test the property reviewsAggregatedInfo
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
@@ -378,13 +390,13 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property agencyUrls (base name: "agencyUrls")', function() {
+    it('should have the property agencyUrls (base name: "agency_urls")', function() {
       // uncomment below and update the code to test the property agencyUrls
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
     });
 
-    it('should have the property agencyPrice (base name: "agencyPrice")', function() {
+    it('should have the property agencyPrice (base name: "agency_price")', function() {
       // uncomment below and update the code to test the property agencyPrice
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
@@ -408,7 +420,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property orderBoxElements (base name: "orderBoxElements")', function() {
+    it('should have the property orderBoxElements (base name: "order_box_elements")', function() {
       // uncomment below and update the code to test the property orderBoxElements
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
@@ -420,14 +432,20 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property hasPassengerInfo (base name: "hasPassengerInfo")', function() {
+    it('should have the property hasPassengerInfo (base name: "has_passenger_info")', function() {
       // uncomment below and update the code to test the property hasPassengerInfo
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
     });
 
-    it('should have the property hasExtraCustomerData (base name: "hasExtraCustomerData")', function() {
+    it('should have the property hasExtraCustomerData (base name: "has_extra_customer_data")', function() {
       // uncomment below and update the code to test the property hasExtraCustomerData
+      //var instane = new MusementApi.Event();
+      //expect(instance).to.be();
+    });
+
+    it('should have the property buyMultiplier (base name: "buy_multiplier")', function() {
+      // uncomment below and update the code to test the property buyMultiplier
       //var instane = new MusementApi.Event();
       //expect(instance).to.be();
     });

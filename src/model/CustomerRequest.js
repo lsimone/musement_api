@@ -72,8 +72,8 @@
     if (data) {
       obj = obj || new exports();
 
-      if (data.hasOwnProperty('favouriteCity')) {
-        obj['favouriteCity'] = CityRequest.constructFromObject(data['favouriteCity']);
+      if (data.hasOwnProperty('favourite_city')) {
+        obj['favourite_city'] = CityRequest.constructFromObject(data['favourite_city']);
       }
       if (data.hasOwnProperty('email')) {
         obj['email'] = ApiClient.convertToType(data['email'], 'String');
@@ -99,8 +99,8 @@
       if (data.hasOwnProperty('address')) {
         obj['address'] = ApiClient.convertToType(data['address'], 'String');
       }
-      if (data.hasOwnProperty('idNumber')) {
-        obj['idNumber'] = ApiClient.convertToType(data['idNumber'], 'String');
+      if (data.hasOwnProperty('id_number')) {
+        obj['id_number'] = ApiClient.convertToType(data['id_number'], 'String');
       }
       if (data.hasOwnProperty('mobile')) {
         obj['mobile'] = ApiClient.convertToType(data['mobile'], 'String');
@@ -108,8 +108,8 @@
       if (data.hasOwnProperty('currency')) {
         obj['currency'] = ApiClient.convertToType(data['currency'], 'String');
       }
-      if (data.hasOwnProperty('vatNumber')) {
-        obj['vatNumber'] = ApiClient.convertToType(data['vatNumber'], 'String');
+      if (data.hasOwnProperty('vat_number')) {
+        obj['vat_number'] = ApiClient.convertToType(data['vat_number'], 'String');
       }
       if (data.hasOwnProperty('birthdate')) {
         obj['birthdate'] = ApiClient.convertToType(data['birthdate'], 'Date');
@@ -119,9 +119,9 @@
   }
 
   /**
-   * @member {module:model/CityRequest} favouriteCity
+   * @member {module:model/CityRequest} favourite_city
    */
-  exports.prototype['favouriteCity'] = undefined;
+  exports.prototype['favourite_city'] = undefined;
   /**
    * @member {String} email
    */
@@ -156,9 +156,9 @@
    */
   exports.prototype['address'] = undefined;
   /**
-   * @member {String} idNumber
+   * @member {String} id_number
    */
-  exports.prototype['idNumber'] = undefined;
+  exports.prototype['id_number'] = undefined;
   /**
    * @member {String} mobile
    */
@@ -168,9 +168,9 @@
    */
   exports.prototype['currency'] = undefined;
   /**
-   * @member {String} vatNumber
+   * @member {String} vat_number
    */
-  exports.prototype['vatNumber'] = undefined;
+  exports.prototype['vat_number'] = undefined;
   /**
    * @member {Date} birthdate
    */

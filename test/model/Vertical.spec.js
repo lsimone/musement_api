@@ -84,19 +84,19 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property sectionTitle (base name: "sectionTitle")', function() {
+    it('should have the property sectionTitle (base name: "section_title")', function() {
       // uncomment below and update the code to test the property sectionTitle
       //var instane = new MusementApi.Vertical();
       //expect(instance).to.be();
     });
 
-    it('should have the property coverImageUrl (base name: "coverImageUrl")', function() {
+    it('should have the property coverImageUrl (base name: "cover_image_url")', function() {
       // uncomment below and update the code to test the property coverImageUrl
       //var instane = new MusementApi.Vertical();
       //expect(instance).to.be();
     });
 
-    it('should have the property topEvents (base name: "topEvents")', function() {
+    it('should have the property topEvents (base name: "top_events")', function() {
       // uncomment below and update the code to test the property topEvents
       //var instane = new MusementApi.Vertical();
       //expect(instance).to.be();

@@ -75,8 +75,8 @@
       if (data.hasOwnProperty('type')) {
         obj['type'] = ApiClient.convertToType(data['type'], 'String');
       }
-      if (data.hasOwnProperty('externalIdentifier')) {
-        obj['externalIdentifier'] = ApiClient.convertToType(data['externalIdentifier'], 'String');
+      if (data.hasOwnProperty('external_identifier')) {
+        obj['external_identifier'] = ApiClient.convertToType(data['external_identifier'], 'String');
       }
     }
     return obj;
@@ -99,9 +99,9 @@
    */
   exports.prototype['type'] = undefined;
   /**
-   * @member {String} externalIdentifier
+   * @member {String} external_identifier
    */
-  exports.prototype['externalIdentifier'] = undefined;
+  exports.prototype['external_identifier'] = undefined;
 
 
 

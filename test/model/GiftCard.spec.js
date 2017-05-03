@@ -66,13 +66,13 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property validFrom (base name: "validFrom")', function() {
+    it('should have the property validFrom (base name: "valid_from")', function() {
       // uncomment below and update the code to test the property validFrom
       //var instane = new MusementApi.GiftCard();
       //expect(instance).to.be();
     });
 
-    it('should have the property validUntil (base name: "validUntil")', function() {
+    it('should have the property validUntil (base name: "valid_until")', function() {
       // uncomment below and update the code to test the property validUntil
       //var instane = new MusementApi.GiftCard();
       //expect(instance).to.be();

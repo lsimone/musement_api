@@ -68,8 +68,8 @@
       if (data.hasOwnProperty('quantity')) {
         obj['quantity'] = ApiClient.convertToType(data['quantity'], 'Number');
       }
-      if (data.hasOwnProperty('passengersInfo')) {
-        obj['passengersInfo'] = ApiClient.convertToType(data['passengersInfo'], [PassengerInfoRequest]);
+      if (data.hasOwnProperty('passengers_info')) {
+        obj['passengers_info'] = ApiClient.convertToType(data['passengers_info'], [PassengerInfoRequest]);
       }
       if (data.hasOwnProperty('metadata')) {
         obj['metadata'] = TicketMetadataRequest.constructFromObject(data['metadata']);
@@ -87,9 +87,9 @@
    */
   exports.prototype['quantity'] = undefined;
   /**
-   * @member {Array.<module:model/PassengerInfoRequest>} passengersInfo
+   * @member {Array.<module:model/PassengerInfoRequest>} passengers_info
    */
-  exports.prototype['passengersInfo'] = undefined;
+  exports.prototype['passengers_info'] = undefined;
   /**
    * @member {module:model/TicketMetadataRequest} metadata
    */

@@ -67,8 +67,8 @@
       if (data.hasOwnProperty('customer')) {
         obj['customer'] = CustomerRequest.constructFromObject(data['customer']);
       }
-      if (data.hasOwnProperty('discountCode')) {
-        obj['discountCode'] = ApiClient.convertToType(data['discountCode'], 'String');
+      if (data.hasOwnProperty('discount_code')) {
+        obj['discount_code'] = ApiClient.convertToType(data['discount_code'], 'String');
       }
     }
     return obj;
@@ -83,9 +83,9 @@
    */
   exports.prototype['customer'] = undefined;
   /**
-   * @member {String} discountCode
+   * @member {String} discount_code
    */
-  exports.prototype['discountCode'] = undefined;
+  exports.prototype['discount_code'] = undefined;
 
 
 

@@ -69,8 +69,8 @@
     if (data) {
       obj = obj || new exports();
 
-      if (data.hasOwnProperty('holderCode')) {
-        obj['holderCode'] = ApiClient.convertToType(data['holderCode'], 'String');
+      if (data.hasOwnProperty('holder_code')) {
+        obj['holder_code'] = ApiClient.convertToType(data['holder_code'], 'String');
       }
       if (data.hasOwnProperty('name')) {
         obj['name'] = ApiClient.convertToType(data['name'], 'String');
@@ -78,38 +78,38 @@
       if (data.hasOwnProperty('type')) {
         obj['type'] = ApiClient.convertToType(data['type'], 'String');
       }
-      if (data.hasOwnProperty('productId')) {
-        obj['productId'] = ApiClient.convertToType(data['productId'], 'String');
+      if (data.hasOwnProperty('product_id')) {
+        obj['product_id'] = ApiClient.convertToType(data['product_id'], 'String');
       }
-      if (data.hasOwnProperty('minBuy')) {
-        obj['minBuy'] = ApiClient.convertToType(data['minBuy'], 'Number');
+      if (data.hasOwnProperty('min_buy')) {
+        obj['min_buy'] = ApiClient.convertToType(data['min_buy'], 'Number');
       }
-      if (data.hasOwnProperty('maxBuy')) {
-        obj['maxBuy'] = ApiClient.convertToType(data['maxBuy'], 'Number');
+      if (data.hasOwnProperty('max_buy')) {
+        obj['max_buy'] = ApiClient.convertToType(data['max_buy'], 'Number');
       }
       if (data.hasOwnProperty('availability')) {
         obj['availability'] = ApiClient.convertToType(data['availability'], 'Number');
       }
-      if (data.hasOwnProperty('rawPrice')) {
-        obj['rawPrice'] = Price.constructFromObject(data['rawPrice']);
+      if (data.hasOwnProperty('raw_price')) {
+        obj['raw_price'] = Price.constructFromObject(data['raw_price']);
       }
-      if (data.hasOwnProperty('discountAmount')) {
-        obj['discountAmount'] = Price.constructFromObject(data['discountAmount']);
+      if (data.hasOwnProperty('discount_amount')) {
+        obj['discount_amount'] = Price.constructFromObject(data['discount_amount']);
       }
-      if (data.hasOwnProperty('retailPrice')) {
-        obj['retailPrice'] = Price.constructFromObject(data['retailPrice']);
+      if (data.hasOwnProperty('retail_price')) {
+        obj['retail_price'] = Price.constructFromObject(data['retail_price']);
       }
-      if (data.hasOwnProperty('serviceFee')) {
-        obj['serviceFee'] = Price.constructFromObject(data['serviceFee']);
+      if (data.hasOwnProperty('service_fee')) {
+        obj['service_fee'] = Price.constructFromObject(data['service_fee']);
       }
     }
     return obj;
   }
 
   /**
-   * @member {String} holderCode
+   * @member {String} holder_code
    */
-  exports.prototype['holderCode'] = undefined;
+  exports.prototype['holder_code'] = undefined;
   /**
    * Name (label) of Holder.
    * @member {String} name
@@ -120,40 +120,40 @@
    */
   exports.prototype['type'] = undefined;
   /**
-   * @member {String} productId
+   * @member {String} product_id
    */
-  exports.prototype['productId'] = undefined;
+  exports.prototype['product_id'] = undefined;
   /**
-   * @member {Number} minBuy
+   * @member {Number} min_buy
    */
-  exports.prototype['minBuy'] = undefined;
+  exports.prototype['min_buy'] = undefined;
   /**
-   * @member {Number} maxBuy
+   * @member {Number} max_buy
    */
-  exports.prototype['maxBuy'] = undefined;
+  exports.prototype['max_buy'] = undefined;
   /**
    * @member {Number} availability
    */
   exports.prototype['availability'] = undefined;
   /**
    * This is the price to the user without any discount applied. (same currency as retailPrice)
-   * @member {module:model/Price} rawPrice
+   * @member {module:model/Price} raw_price
    */
-  exports.prototype['rawPrice'] = undefined;
+  exports.prototype['raw_price'] = undefined;
   /**
    * Amount of discount in same currency as retailPrice (only SeatPrice.discount used because its not in Cart)
-   * @member {module:model/Price} discountAmount
+   * @member {module:model/Price} discount_amount
    */
-  exports.prototype['discountAmount'] = undefined;
+  exports.prototype['discount_amount'] = undefined;
   /**
    * Price with discount applied (only SeatPrice.discount used because its not in Cart)
-   * @member {module:model/Price} retailPrice
+   * @member {module:model/Price} retail_price
    */
-  exports.prototype['retailPrice'] = undefined;
+  exports.prototype['retail_price'] = undefined;
   /**
-   * @member {module:model/Price} serviceFee
+   * @member {module:model/Price} service_fee
    */
-  exports.prototype['serviceFee'] = undefined;
+  exports.prototype['service_fee'] = undefined;
 
 
 

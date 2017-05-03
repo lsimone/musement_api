@@ -54,13 +54,13 @@
       //expect(instance).to.be.a(MusementApi.GiftCreationRequest);
     });
 
-    it('should have the property eventId (base name: "eventId")', function() {
+    it('should have the property eventId (base name: "event_id")', function() {
       // uncomment below and update the code to test the property eventId
       //var instane = new MusementApi.GiftCreationRequest();
       //expect(instance).to.be();
     });
 
-    it('should have the property donorName (base name: "donorName")', function() {
+    it('should have the property donorName (base name: "donor_name")', function() {
       // uncomment below and update the code to test the property donorName
       //var instane = new MusementApi.GiftCreationRequest();
       //expect(instance).to.be();
@@ -72,7 +72,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property pictureUrl (base name: "pictureUrl")', function() {
+    it('should have the property pictureUrl (base name: "picture_url")', function() {
       // uncomment below and update the code to test the property pictureUrl
       //var instane = new MusementApi.GiftCreationRequest();
       //expect(instance).to.be();
@@ -84,25 +84,25 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property recipientEmail (base name: "recipientEmail")', function() {
+    it('should have the property recipientEmail (base name: "recipient_email")', function() {
       // uncomment below and update the code to test the property recipientEmail
       //var instane = new MusementApi.GiftCreationRequest();
       //expect(instance).to.be();
     });
 
-    it('should have the property recipientName (base name: "recipientName")', function() {
+    it('should have the property recipientName (base name: "recipient_name")', function() {
       // uncomment below and update the code to test the property recipientName
       //var instane = new MusementApi.GiftCreationRequest();
       //expect(instance).to.be();
     });
 
-    it('should have the property featureCode (base name: "featureCode")', function() {
+    it('should have the property featureCode (base name: "feature_code")', function() {
       // uncomment below and update the code to test the property featureCode
       //var instane = new MusementApi.GiftCreationRequest();
       //expect(instance).to.be();
     });
 
-    it('should have the property productsWithQuantities (base name: "productsWithQuantities")', function() {
+    it('should have the property productsWithQuantities (base name: "products_with_quantities")', function() {
       // uncomment below and update the code to test the property productsWithQuantities
       //var instane = new MusementApi.GiftCreationRequest();
       //expect(instance).to.be();

@@ -72,7 +72,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property publishDate (base name: "publishDate")', function() {
+    it('should have the property publishDate (base name: "publish_date")', function() {
       // uncomment below and update the code to test the property publishDate
       //var instane = new MusementApi.Blogpost();
       //expect(instance).to.be();
@@ -84,13 +84,13 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property backgroundImage (base name: "backgroundImage")', function() {
+    it('should have the property backgroundImage (base name: "background_image")', function() {
       // uncomment below and update the code to test the property backgroundImage
       //var instane = new MusementApi.Blogpost();
       //expect(instance).to.be();
     });
 
-    it('should have the property backgroundImageCredits (base name: "backgroundImageCredits")', function() {
+    it('should have the property backgroundImageCredits (base name: "background_image_credits")', function() {
       // uncomment below and update the code to test the property backgroundImageCredits
       //var instane = new MusementApi.Blogpost();
       //expect(instance).to.be();
@@ -120,7 +120,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property shareImage (base name: "shareImage")', function() {
+    it('should have the property shareImage (base name: "share_image")', function() {
       // uncomment below and update the code to test the property shareImage
       //var instane = new MusementApi.Blogpost();
       //expect(instance).to.be();

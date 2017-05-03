@@ -66,8 +66,8 @@
       if (data.hasOwnProperty('id')) {
         obj['id'] = ApiClient.convertToType(data['id'], 'Number');
       }
-      if (data.hasOwnProperty('publicType')) {
-        obj['publicType'] = ApiClient.convertToType(data['publicType'], 'String');
+      if (data.hasOwnProperty('public_type')) {
+        obj['public_type'] = ApiClient.convertToType(data['public_type'], 'String');
       }
       if (data.hasOwnProperty('title')) {
         obj['title'] = ApiClient.convertToType(data['title'], 'String');
@@ -87,9 +87,9 @@
    */
   exports.prototype['id'] = undefined;
   /**
-   * @member {String} publicType
+   * @member {String} public_type
    */
-  exports.prototype['publicType'] = undefined;
+  exports.prototype['public_type'] = undefined;
   /**
    * @member {String} title
    */

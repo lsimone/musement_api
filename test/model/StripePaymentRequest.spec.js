@@ -54,13 +54,13 @@
       //expect(instance).to.be.a(MusementApi.StripePaymentRequest);
     });
 
-    it('should have the property orderId (base name: "orderId")', function() {
+    it('should have the property orderId (base name: "order_id")', function() {
       // uncomment below and update the code to test the property orderId
       //var instane = new MusementApi.StripePaymentRequest();
       //expect(instance).to.be();
     });
 
-    it('should have the property clientIp (base name: "clientIp")', function() {
+    it('should have the property clientIp (base name: "client_ip")', function() {
       // uncomment below and update the code to test the property clientIp
       //var instane = new MusementApi.StripePaymentRequest();
       //expect(instance).to.be();

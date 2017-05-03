@@ -60,13 +60,13 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property whereIs (base name: "whereIs")', function() {
+    it('should have the property whereIs (base name: "where_is")', function() {
       // uncomment below and update the code to test the property whereIs
       //var instane = new MusementApi.GenericEvent();
       //expect(instance).to.be();
     });
 
-    it('should have the property whenIs (base name: "whenIs")', function() {
+    it('should have the property whenIs (base name: "when_is")', function() {
       // uncomment below and update the code to test the property whenIs
       //var instane = new MusementApi.GenericEvent();
       //expect(instance).to.be();

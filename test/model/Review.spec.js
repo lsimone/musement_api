@@ -84,13 +84,13 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property sentAt (base name: "sentAt")', function() {
+    it('should have the property sentAt (base name: "sent_at")', function() {
       // uncomment below and update the code to test the property sentAt
       //var instane = new MusementApi.Review();
       //expect(instance).to.be();
     });
 
-    it('should have the property approvedAt (base name: "approvedAt")', function() {
+    it('should have the property approvedAt (base name: "approved_at")', function() {
       // uncomment below and update the code to test the property approvedAt
       //var instane = new MusementApi.Review();
       //expect(instance).to.be();

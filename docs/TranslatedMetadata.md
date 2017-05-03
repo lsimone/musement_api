@@ -5,5 +5,6 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **code** | **String** |  | [optional] 
 **name** | **String** |  | [optional] 
+**extra** | **[String]** |  | [optional] 
 
 

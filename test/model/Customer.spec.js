@@ -60,7 +60,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property registrationType (base name: "registrationType")', function() {
+    it('should have the property registrationType (base name: "registration_type")', function() {
       // uncomment below and update the code to test the property registrationType
       //var instane = new MusementApi.Customer();
       //expect(instance).to.be();

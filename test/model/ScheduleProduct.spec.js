@@ -54,7 +54,7 @@
       //expect(instance).to.be.a(MusementApi.ScheduleProduct);
     });
 
-    it('should have the property holderCode (base name: "holderCode")', function() {
+    it('should have the property holderCode (base name: "holder_code")', function() {
       // uncomment below and update the code to test the property holderCode
       //var instane = new MusementApi.ScheduleProduct();
       //expect(instance).to.be();
@@ -72,19 +72,19 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property productId (base name: "productId")', function() {
+    it('should have the property productId (base name: "product_id")', function() {
       // uncomment below and update the code to test the property productId
       //var instane = new MusementApi.ScheduleProduct();
       //expect(instance).to.be();
     });
 
-    it('should have the property minBuy (base name: "minBuy")', function() {
+    it('should have the property minBuy (base name: "min_buy")', function() {
       // uncomment below and update the code to test the property minBuy
       //var instane = new MusementApi.ScheduleProduct();
       //expect(instance).to.be();
     });
 
-    it('should have the property maxBuy (base name: "maxBuy")', function() {
+    it('should have the property maxBuy (base name: "max_buy")', function() {
       // uncomment below and update the code to test the property maxBuy
       //var instane = new MusementApi.ScheduleProduct();
       //expect(instance).to.be();
@@ -96,25 +96,25 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property rawPrice (base name: "rawPrice")', function() {
+    it('should have the property rawPrice (base name: "raw_price")', function() {
       // uncomment below and update the code to test the property rawPrice
       //var instane = new MusementApi.ScheduleProduct();
       //expect(instance).to.be();
     });
 
-    it('should have the property discountAmount (base name: "discountAmount")', function() {
+    it('should have the property discountAmount (base name: "discount_amount")', function() {
       // uncomment below and update the code to test the property discountAmount
       //var instane = new MusementApi.ScheduleProduct();
       //expect(instance).to.be();
     });
 
-    it('should have the property retailPrice (base name: "retailPrice")', function() {
+    it('should have the property retailPrice (base name: "retail_price")', function() {
       // uncomment below and update the code to test the property retailPrice
       //var instane = new MusementApi.ScheduleProduct();
       //expect(instance).to.be();
     });
 
-    it('should have the property serviceFee (base name: "serviceFee")', function() {
+    it('should have the property serviceFee (base name: "service_fee")', function() {
       // uncomment below and update the code to test the property serviceFee
       //var instane = new MusementApi.ScheduleProduct();
       //expect(instance).to.be();

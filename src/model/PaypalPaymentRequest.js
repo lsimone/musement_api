@@ -61,33 +61,33 @@
     if (data) {
       obj = obj || new exports();
 
-      if (data.hasOwnProperty('orderId')) {
-        obj['orderId'] = ApiClient.convertToType(data['orderId'], 'Number');
+      if (data.hasOwnProperty('order_id')) {
+        obj['order_id'] = ApiClient.convertToType(data['order_id'], 'Number');
       }
-      if (data.hasOwnProperty('paypalPaymentId')) {
-        obj['paypalPaymentId'] = ApiClient.convertToType(data['paypalPaymentId'], 'String');
+      if (data.hasOwnProperty('paypal_payment_id')) {
+        obj['paypal_payment_id'] = ApiClient.convertToType(data['paypal_payment_id'], 'String');
       }
-      if (data.hasOwnProperty('clientIp')) {
-        obj['clientIp'] = ApiClient.convertToType(data['clientIp'], 'String');
+      if (data.hasOwnProperty('client_ip')) {
+        obj['client_ip'] = ApiClient.convertToType(data['client_ip'], 'String');
       }
     }
     return obj;
   }
 
   /**
-   * @member {Number} orderId
+   * @member {Number} order_id
    */
-  exports.prototype['orderId'] = undefined;
+  exports.prototype['order_id'] = undefined;
   /**
    * Paypal \"payment id\" obtained on \"client side\".
-   * @member {String} paypalPaymentId
+   * @member {String} paypal_payment_id
    */
-  exports.prototype['paypalPaymentId'] = undefined;
+  exports.prototype['paypal_payment_id'] = undefined;
   /**
    * [optional] User IP address for logging purposes.
-   * @member {String} clientIp
+   * @member {String} client_ip
    */
-  exports.prototype['clientIp'] = undefined;
+  exports.prototype['client_ip'] = undefined;
 
 
 

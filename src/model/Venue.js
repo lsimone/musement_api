@@ -101,8 +101,8 @@
       if (data.hasOwnProperty('description')) {
         obj['description'] = ApiClient.convertToType(data['description'], 'String');
       }
-      if (data.hasOwnProperty('descriptionHtml')) {
-        obj['descriptionHtml'] = ApiClient.convertToType(data['descriptionHtml'], 'String');
+      if (data.hasOwnProperty('description_html')) {
+        obj['description_html'] = ApiClient.convertToType(data['description_html'], 'String');
       }
       if (data.hasOwnProperty('address')) {
         obj['address'] = ApiClient.convertToType(data['address'], 'String');
@@ -113,11 +113,11 @@
       if (data.hasOwnProperty('verticals')) {
         obj['verticals'] = ApiClient.convertToType(data['verticals'], [Vertical]);
       }
-      if (data.hasOwnProperty('coverImageUrl')) {
-        obj['coverImageUrl'] = ApiClient.convertToType(data['coverImageUrl'], 'String');
+      if (data.hasOwnProperty('cover_image_url')) {
+        obj['cover_image_url'] = ApiClient.convertToType(data['cover_image_url'], 'String');
       }
-      if (data.hasOwnProperty('eventsCount')) {
-        obj['eventsCount'] = ApiClient.convertToType(data['eventsCount'], 'Number');
+      if (data.hasOwnProperty('events_count')) {
+        obj['events_count'] = ApiClient.convertToType(data['events_count'], 'Number');
       }
       if (data.hasOwnProperty('url')) {
         obj['url'] = ApiClient.convertToType(data['url'], 'String');
@@ -125,14 +125,14 @@
       if (data.hasOwnProperty('country')) {
         obj['country'] = Country.constructFromObject(data['country']);
       }
-      if (data.hasOwnProperty('showCalendar')) {
-        obj['showCalendar'] = ApiClient.convertToType(data['showCalendar'], 'Boolean');
+      if (data.hasOwnProperty('show_calendar')) {
+        obj['show_calendar'] = ApiClient.convertToType(data['show_calendar'], 'Boolean');
       }
-      if (data.hasOwnProperty('showFlavoursFilter')) {
-        obj['showFlavoursFilter'] = ApiClient.convertToType(data['showFlavoursFilter'], 'Boolean');
+      if (data.hasOwnProperty('show_flavours_filter')) {
+        obj['show_flavours_filter'] = ApiClient.convertToType(data['show_flavours_filter'], 'Boolean');
       }
-      if (data.hasOwnProperty('showFiltersWhenEventsCount')) {
-        obj['showFiltersWhenEventsCount'] = ApiClient.convertToType(data['showFiltersWhenEventsCount'], 'Number');
+      if (data.hasOwnProperty('show_filters_when_events_count')) {
+        obj['show_filters_when_events_count'] = ApiClient.convertToType(data['show_filters_when_events_count'], 'Number');
       }
     }
     return obj;
@@ -171,9 +171,9 @@
    */
   exports.prototype['description'] = undefined;
   /**
-   * @member {String} descriptionHtml
+   * @member {String} description_html
    */
-  exports.prototype['descriptionHtml'] = undefined;
+  exports.prototype['description_html'] = undefined;
   /**
    * @member {String} address
    */
@@ -187,13 +187,13 @@
    */
   exports.prototype['verticals'] = undefined;
   /**
-   * @member {String} coverImageUrl
+   * @member {String} cover_image_url
    */
-  exports.prototype['coverImageUrl'] = undefined;
+  exports.prototype['cover_image_url'] = undefined;
   /**
-   * @member {Number} eventsCount
+   * @member {Number} events_count
    */
-  exports.prototype['eventsCount'] = undefined;
+  exports.prototype['events_count'] = undefined;
   /**
    * @member {String} url
    */
@@ -203,17 +203,17 @@
    */
   exports.prototype['country'] = undefined;
   /**
-   * @member {Boolean} showCalendar
+   * @member {Boolean} show_calendar
    */
-  exports.prototype['showCalendar'] = undefined;
+  exports.prototype['show_calendar'] = undefined;
   /**
-   * @member {Boolean} showFlavoursFilter
+   * @member {Boolean} show_flavours_filter
    */
-  exports.prototype['showFlavoursFilter'] = undefined;
+  exports.prototype['show_flavours_filter'] = undefined;
   /**
-   * @member {Number} showFiltersWhenEventsCount
+   * @member {Number} show_filters_when_events_count
    */
-  exports.prototype['showFiltersWhenEventsCount'] = undefined;
+  exports.prototype['show_filters_when_events_count'] = undefined;
 
 
 

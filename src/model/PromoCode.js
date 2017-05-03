@@ -78,17 +78,17 @@
       if (data.hasOwnProperty('discount')) {
         obj['discount'] = ApiClient.convertToType(data['discount'], 'Number');
       }
-      if (data.hasOwnProperty('maxUsage')) {
-        obj['maxUsage'] = ApiClient.convertToType(data['maxUsage'], 'Number');
+      if (data.hasOwnProperty('max_usage')) {
+        obj['max_usage'] = ApiClient.convertToType(data['max_usage'], 'Number');
       }
-      if (data.hasOwnProperty('validFrom')) {
-        obj['validFrom'] = ApiClient.convertToType(data['validFrom'], 'Date');
+      if (data.hasOwnProperty('valid_from')) {
+        obj['valid_from'] = ApiClient.convertToType(data['valid_from'], 'Date');
       }
-      if (data.hasOwnProperty('validUntil')) {
-        obj['validUntil'] = ApiClient.convertToType(data['validUntil'], 'Date');
+      if (data.hasOwnProperty('valid_until')) {
+        obj['valid_until'] = ApiClient.convertToType(data['valid_until'], 'Date');
       }
-      if (data.hasOwnProperty('minimumAmount')) {
-        obj['minimumAmount'] = ApiClient.convertToType(data['minimumAmount'], 'Number');
+      if (data.hasOwnProperty('minimum_amount')) {
+        obj['minimum_amount'] = ApiClient.convertToType(data['minimum_amount'], 'Number');
       }
     }
     return obj;
@@ -111,21 +111,21 @@
    */
   exports.prototype['discount'] = undefined;
   /**
-   * @member {Number} maxUsage
+   * @member {Number} max_usage
    */
-  exports.prototype['maxUsage'] = undefined;
+  exports.prototype['max_usage'] = undefined;
   /**
-   * @member {Date} validFrom
+   * @member {Date} valid_from
    */
-  exports.prototype['validFrom'] = undefined;
+  exports.prototype['valid_from'] = undefined;
   /**
-   * @member {Date} validUntil
+   * @member {Date} valid_until
    */
-  exports.prototype['validUntil'] = undefined;
+  exports.prototype['valid_until'] = undefined;
   /**
-   * @member {Number} minimumAmount
+   * @member {Number} minimum_amount
    */
-  exports.prototype['minimumAmount'] = undefined;
+  exports.prototype['minimum_amount'] = undefined;
 
 
 

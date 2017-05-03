@@ -61,8 +61,8 @@
     if (data) {
       obj = obj || new exports();
 
-      if (data.hasOwnProperty('embeddedCode')) {
-        obj['embeddedCode'] = ApiClient.convertToType(data['embeddedCode'], 'String');
+      if (data.hasOwnProperty('embedded_code')) {
+        obj['embedded_code'] = ApiClient.convertToType(data['embedded_code'], 'String');
       }
       if (data.hasOwnProperty('type')) {
         obj['type'] = ApiClient.convertToType(data['type'], 'String');
@@ -75,9 +75,9 @@
   }
 
   /**
-   * @member {String} embeddedCode
+   * @member {String} embedded_code
    */
-  exports.prototype['embeddedCode'] = undefined;
+  exports.prototype['embedded_code'] = undefined;
   /**
    * @member {String} type
    */

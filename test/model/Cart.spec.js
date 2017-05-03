@@ -66,19 +66,19 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property discountCode (base name: "discountCode")', function() {
+    it('should have the property discountCode (base name: "discount_code")', function() {
       // uncomment below and update the code to test the property discountCode
       //var instane = new MusementApi.Cart();
       //expect(instance).to.be();
     });
 
-    it('should have the property giftCard (base name: "giftCard")', function() {
+    it('should have the property giftCard (base name: "gift_card")', function() {
       // uncomment below and update the code to test the property giftCard
       //var instane = new MusementApi.Cart();
       //expect(instance).to.be();
     });
 
-    it('should have the property promoCode (base name: "promoCode")', function() {
+    it('should have the property promoCode (base name: "promo_code")', function() {
       // uncomment below and update the code to test the property promoCode
       //var instane = new MusementApi.Cart();
       //expect(instance).to.be();
@@ -90,13 +90,13 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property customerId (base name: "customerId")', function() {
+    it('should have the property customerId (base name: "customer_id")', function() {
       // uncomment below and update the code to test the property customerId
       //var instane = new MusementApi.Cart();
       //expect(instance).to.be();
     });
 
-    it('should have the property retailPrice (base name: "retailPrice")', function() {
+    it('should have the property retailPrice (base name: "retail_price")', function() {
       // uncomment below and update the code to test the property retailPrice
       //var instane = new MusementApi.Cart();
       //expect(instance).to.be();

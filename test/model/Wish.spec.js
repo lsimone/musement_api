@@ -60,13 +60,13 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property itemId (base name: "itemId")', function() {
+    it('should have the property itemId (base name: "item_id")', function() {
       // uncomment below and update the code to test the property itemId
       //var instane = new MusementApi.Wish();
       //expect(instance).to.be();
     });
 
-    it('should have the property itemType (base name: "itemType")', function() {
+    it('should have the property itemType (base name: "item_type")', function() {
       // uncomment below and update the code to test the property itemType
       //var instane = new MusementApi.Wish();
       //expect(instance).to.be();
@@ -84,7 +84,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property coverImageUrl (base name: "coverImageUrl")', function() {
+    it('should have the property coverImageUrl (base name: "cover_image_url")', function() {
       // uncomment below and update the code to test the property coverImageUrl
       //var instane = new MusementApi.Wish();
       //expect(instance).to.be();

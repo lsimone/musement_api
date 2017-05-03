@@ -71,8 +71,8 @@
       if (data.hasOwnProperty('active')) {
         obj['active'] = ApiClient.convertToType(data['active'], 'Boolean');
       }
-      if (data.hasOwnProperty('coverImageUrl')) {
-        obj['coverImageUrl'] = ApiClient.convertToType(data['coverImageUrl'], 'String');
+      if (data.hasOwnProperty('cover_image_url')) {
+        obj['cover_image_url'] = ApiClient.convertToType(data['cover_image_url'], 'String');
       }
     }
     return obj;
@@ -91,9 +91,9 @@
    */
   exports.prototype['active'] = undefined;
   /**
-   * @member {String} coverImageUrl
+   * @member {String} cover_image_url
    */
-  exports.prototype['coverImageUrl'] = undefined;
+  exports.prototype['cover_image_url'] = undefined;
 
 
 

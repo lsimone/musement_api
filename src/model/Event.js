@@ -14,18 +14,18 @@
 (function(root, factory) {
   if (typeof define === 'function' && define.amd) {
     // AMD. Register as an anonymous module.
-    define(['ApiClient', 'model/Bucket', 'model/Category', 'model/City', 'model/Flavour', 'model/Price', 'model/Tag', 'model/TranslatedMetadata', 'model/Vertical'], factory);
+    define(['ApiClient', 'model/Bucket', 'model/Category', 'model/City', 'model/Flavour', 'model/Price', 'model/ReviewsAggregatedInfo', 'model/Tag', 'model/TranslatedMetadata', 'model/Vertical'], factory);
   } else if (typeof module === 'object' && module.exports) {
     // CommonJS-like environments that support module.exports, like Node.
-    module.exports = factory(require('../ApiClient'), require('./Bucket'), require('./Category'), require('./City'), require('./Flavour'), require('./Price'), require('./Tag'), require('./TranslatedMetadata'), require('./Vertical'));
+    module.exports = factory(require('../ApiClient'), require('./Bucket'), require('./Category'), require('./City'), require('./Flavour'), require('./Price'), require('./ReviewsAggregatedInfo'), require('./Tag'), require('./TranslatedMetadata'), require('./Vertical'));
   } else {
     // Browser globals (root is window)
     if (!root.MusementApi) {
       root.MusementApi = {};
     }
-    root.MusementApi.Event = factory(root.MusementApi.ApiClient, root.MusementApi.Bucket, root.MusementApi.Category, root.MusementApi.City, root.MusementApi.Flavour, root.MusementApi.Price, root.MusementApi.Tag, root.MusementApi.TranslatedMetadata, root.MusementApi.Vertical);
+    root.MusementApi.Event = factory(root.MusementApi.ApiClient, root.MusementApi.Bucket, root.MusementApi.Category, root.MusementApi.City, root.MusementApi.Flavour, root.MusementApi.Price, root.MusementApi.ReviewsAggregatedInfo, root.MusementApi.Tag, root.MusementApi.TranslatedMetadata, root.MusementApi.Vertical);
   }
-}(this, function(ApiClient, Bucket, Category, City, Flavour, Price, Tag, TranslatedMetadata, Vertical) {
+}(this, function(ApiClient, Bucket, Category, City, Flavour, Price, ReviewsAggregatedInfo, Tag, TranslatedMetadata, Vertical) {
   'use strict';
 
 
@@ -44,6 +44,9 @@
    */
   var exports = function() {
     var _this = this;
+
+
+
 
 
 
@@ -137,23 +140,23 @@
       if (data.hasOwnProperty('relevance')) {
         obj['relevance'] = ApiClient.convertToType(data['relevance'], 'Number');
       }
-      if (data.hasOwnProperty('relevanceVenue')) {
-        obj['relevanceVenue'] = ApiClient.convertToType(data['relevanceVenue'], 'Number');
+      if (data.hasOwnProperty('relevance_venue')) {
+        obj['relevance_venue'] = ApiClient.convertToType(data['relevance_venue'], 'Number');
       }
-      if (data.hasOwnProperty('maxConfirmationTime')) {
-        obj['maxConfirmationTime'] = ApiClient.convertToType(data['maxConfirmationTime'], 'Number');
+      if (data.hasOwnProperty('max_confirmation_time')) {
+        obj['max_confirmation_time'] = ApiClient.convertToType(data['max_confirmation_time'], 'Number');
       }
-      if (data.hasOwnProperty('mustSee')) {
-        obj['mustSee'] = ApiClient.convertToType(data['mustSee'], 'Boolean');
+      if (data.hasOwnProperty('must_see')) {
+        obj['must_see'] = ApiClient.convertToType(data['must_see'], 'Boolean');
       }
-      if (data.hasOwnProperty('lastChance')) {
-        obj['lastChance'] = ApiClient.convertToType(data['lastChance'], 'Boolean');
+      if (data.hasOwnProperty('last_chance')) {
+        obj['last_chance'] = ApiClient.convertToType(data['last_chance'], 'Boolean');
       }
-      if (data.hasOwnProperty('topSeller')) {
-        obj['topSeller'] = ApiClient.convertToType(data['topSeller'], 'Boolean');
+      if (data.hasOwnProperty('top_seller')) {
+        obj['top_seller'] = ApiClient.convertToType(data['top_seller'], 'Boolean');
       }
-      if (data.hasOwnProperty('printVoucher')) {
-        obj['printVoucher'] = ApiClient.convertToType(data['printVoucher'], 'Boolean');
+      if (data.hasOwnProperty('print_voucher')) {
+        obj['print_voucher'] = ApiClient.convertToType(data['print_voucher'], 'Boolean');
       }
       if (data.hasOwnProperty('temporary')) {
         obj['temporary'] = ApiClient.convertToType(data['temporary'], 'Boolean');
@@ -164,44 +167,50 @@
       if (data.hasOwnProperty('about')) {
         obj['about'] = ApiClient.convertToType(data['about'], 'String');
       }
-      if (data.hasOwnProperty('aboutMarkdown')) {
-        obj['aboutMarkdown'] = ApiClient.convertToType(data['aboutMarkdown'], 'String');
+      if (data.hasOwnProperty('about_markdown')) {
+        obj['about_markdown'] = ApiClient.convertToType(data['about_markdown'], 'String');
       }
-      if (data.hasOwnProperty('aboutHtml')) {
-        obj['aboutHtml'] = ApiClient.convertToType(data['aboutHtml'], 'String');
+      if (data.hasOwnProperty('about_html')) {
+        obj['about_html'] = ApiClient.convertToType(data['about_html'], 'String');
       }
-      if (data.hasOwnProperty('meetingPoint')) {
-        obj['meetingPoint'] = ApiClient.convertToType(data['meetingPoint'], 'String');
+      if (data.hasOwnProperty('meeting_point')) {
+        obj['meeting_point'] = ApiClient.convertToType(data['meeting_point'], 'String');
       }
-      if (data.hasOwnProperty('openingHours')) {
-        obj['openingHours'] = ApiClient.convertToType(data['openingHours'], 'String');
+      if (data.hasOwnProperty('opening_hours')) {
+        obj['opening_hours'] = ApiClient.convertToType(data['opening_hours'], 'String');
       }
-      if (data.hasOwnProperty('numberedSeats')) {
-        obj['numberedSeats'] = ApiClient.convertToType(data['numberedSeats'], 'Boolean');
+      if (data.hasOwnProperty('duration')) {
+        obj['duration'] = ApiClient.convertToType(data['duration'], 'String');
       }
-      if (data.hasOwnProperty('hasPriceInfoOnDate')) {
-        obj['hasPriceInfoOnDate'] = ApiClient.convertToType(data['hasPriceInfoOnDate'], 'Boolean');
+      if (data.hasOwnProperty('validity')) {
+        obj['validity'] = ApiClient.convertToType(data['validity'], 'String');
+      }
+      if (data.hasOwnProperty('numbered_seats')) {
+        obj['numbered_seats'] = ApiClient.convertToType(data['numbered_seats'], 'Boolean');
+      }
+      if (data.hasOwnProperty('has_price_info_on_date')) {
+        obj['has_price_info_on_date'] = ApiClient.convertToType(data['has_price_info_on_date'], 'Boolean');
       }
       if (data.hasOwnProperty('open')) {
         obj['open'] = ApiClient.convertToType(data['open'], 'Boolean');
       }
-      if (data.hasOwnProperty('ticketNotIncluded')) {
-        obj['ticketNotIncluded'] = ApiClient.convertToType(data['ticketNotIncluded'], 'Boolean');
+      if (data.hasOwnProperty('ticket_not_included')) {
+        obj['ticket_not_included'] = ApiClient.convertToType(data['ticket_not_included'], 'Boolean');
       }
-      if (data.hasOwnProperty('likelyToSellOut')) {
-        obj['likelyToSellOut'] = ApiClient.convertToType(data['likelyToSellOut'], 'Boolean');
+      if (data.hasOwnProperty('likely_to_sell_out')) {
+        obj['likely_to_sell_out'] = ApiClient.convertToType(data['likely_to_sell_out'], 'Boolean');
       }
-      if (data.hasOwnProperty('specialOffer')) {
-        obj['specialOffer'] = ApiClient.convertToType(data['specialOffer'], 'Boolean');
+      if (data.hasOwnProperty('special_offer')) {
+        obj['special_offer'] = ApiClient.convertToType(data['special_offer'], 'Boolean');
       }
       if (data.hasOwnProperty('exclusive')) {
         obj['exclusive'] = ApiClient.convertToType(data['exclusive'], 'Boolean');
       }
-      if (data.hasOwnProperty('includedHotelNightNumber')) {
-        obj['includedHotelNightNumber'] = ApiClient.convertToType(data['includedHotelNightNumber'], 'Number');
+      if (data.hasOwnProperty('included_hotel_night_number')) {
+        obj['included_hotel_night_number'] = ApiClient.convertToType(data['included_hotel_night_number'], 'Number');
       }
-      if (data.hasOwnProperty('greenFeeDays')) {
-        obj['greenFeeDays'] = ApiClient.convertToType(data['greenFeeDays'], 'Number');
+      if (data.hasOwnProperty('green_fee_days')) {
+        obj['green_fee_days'] = ApiClient.convertToType(data['green_fee_days'], 'Number');
       }
       if (data.hasOwnProperty('daily')) {
         obj['daily'] = ApiClient.convertToType(data['daily'], 'Boolean');
@@ -209,8 +218,8 @@
       if (data.hasOwnProperty('languages')) {
         obj['languages'] = ApiClient.convertToType(data['languages'], [TranslatedMetadata]);
       }
-      if (data.hasOwnProperty('groupSize')) {
-        obj['groupSize'] = ApiClient.convertToType(data['groupSize'], ['String']);
+      if (data.hasOwnProperty('group_size')) {
+        obj['group_size'] = ApiClient.convertToType(data['group_size'], ['String']);
       }
       if (data.hasOwnProperty('food')) {
         obj['food'] = ApiClient.convertToType(data['food'], [TranslatedMetadata]);
@@ -230,32 +239,32 @@
       if (data.hasOwnProperty('included')) {
         obj['included'] = ApiClient.convertToType(data['included'], ['String']);
       }
-      if (data.hasOwnProperty('notIncluded')) {
-        obj['notIncluded'] = ApiClient.convertToType(data['notIncluded'], ['String']);
+      if (data.hasOwnProperty('not_included')) {
+        obj['not_included'] = ApiClient.convertToType(data['not_included'], ['String']);
       }
-      if (data.hasOwnProperty('isAvailableToday')) {
-        obj['isAvailableToday'] = ApiClient.convertToType(data['isAvailableToday'], 'Boolean');
+      if (data.hasOwnProperty('is_available_today')) {
+        obj['is_available_today'] = ApiClient.convertToType(data['is_available_today'], 'Boolean');
       }
-      if (data.hasOwnProperty('isAvailableTomorrow')) {
-        obj['isAvailableTomorrow'] = ApiClient.convertToType(data['isAvailableTomorrow'], 'Boolean');
+      if (data.hasOwnProperty('is_available_tomorrow')) {
+        obj['is_available_tomorrow'] = ApiClient.convertToType(data['is_available_tomorrow'], 'Boolean');
       }
-      if (data.hasOwnProperty('hasMultipleOptions')) {
-        obj['hasMultipleOptions'] = ApiClient.convertToType(data['hasMultipleOptions'], 'Boolean');
+      if (data.hasOwnProperty('has_multiple_options')) {
+        obj['has_multiple_options'] = ApiClient.convertToType(data['has_multiple_options'], 'Boolean');
       }
-      if (data.hasOwnProperty('coverImageUrl')) {
-        obj['coverImageUrl'] = ApiClient.convertToType(data['coverImageUrl'], 'String');
+      if (data.hasOwnProperty('cover_image_url')) {
+        obj['cover_image_url'] = ApiClient.convertToType(data['cover_image_url'], 'String');
       }
-      if (data.hasOwnProperty('extraMediaUrl')) {
-        obj['extraMediaUrl'] = ApiClient.convertToType(data['extraMediaUrl'], 'String');
+      if (data.hasOwnProperty('extra_media_url')) {
+        obj['extra_media_url'] = ApiClient.convertToType(data['extra_media_url'], 'String');
       }
-      if (data.hasOwnProperty('retailPrice')) {
-        obj['retailPrice'] = Price.constructFromObject(data['retailPrice']);
+      if (data.hasOwnProperty('retail_price')) {
+        obj['retail_price'] = Price.constructFromObject(data['retail_price']);
       }
-      if (data.hasOwnProperty('netPrice')) {
-        obj['netPrice'] = Price.constructFromObject(data['netPrice']);
+      if (data.hasOwnProperty('net_price')) {
+        obj['net_price'] = Price.constructFromObject(data['net_price']);
       }
-      if (data.hasOwnProperty('bundledPrice')) {
-        obj['bundledPrice'] = Price.constructFromObject(data['bundledPrice']);
+      if (data.hasOwnProperty('bundled_price')) {
+        obj['bundled_price'] = Price.constructFromObject(data['bundled_price']);
       }
       if (data.hasOwnProperty('discount')) {
         obj['discount'] = ApiClient.convertToType(data['discount'], 'Number');
@@ -266,14 +275,14 @@
       if (data.hasOwnProperty('categories')) {
         obj['categories'] = ApiClient.convertToType(data['categories'], [Category]);
       }
-      if (data.hasOwnProperty('reviewsNumber')) {
-        obj['reviewsNumber'] = ApiClient.convertToType(data['reviewsNumber'], 'Number');
+      if (data.hasOwnProperty('reviews_number')) {
+        obj['reviews_number'] = ApiClient.convertToType(data['reviews_number'], 'Number');
       }
-      if (data.hasOwnProperty('reviewsAvg')) {
-        obj['reviewsAvg'] = ApiClient.convertToType(data['reviewsAvg'], 'Number');
+      if (data.hasOwnProperty('reviews_avg')) {
+        obj['reviews_avg'] = ApiClient.convertToType(data['reviews_avg'], 'Number');
       }
-      if (data.hasOwnProperty('reviewsAggregatedInfo')) {
-        obj['reviewsAggregatedInfo'] = ApiClient.convertToType(data['reviewsAggregatedInfo'], ['String']);
+      if (data.hasOwnProperty('reviews_aggregated_info')) {
+        obj['reviews_aggregated_info'] = ReviewsAggregatedInfo.constructFromObject(data['reviews_aggregated_info']);
       }
       if (data.hasOwnProperty('latitude')) {
         obj['latitude'] = ApiClient.convertToType(data['latitude'], 'Number');
@@ -284,11 +293,11 @@
       if (data.hasOwnProperty('url')) {
         obj['url'] = ApiClient.convertToType(data['url'], 'String');
       }
-      if (data.hasOwnProperty('agencyUrls')) {
-        obj['agencyUrls'] = ApiClient.convertToType(data['agencyUrls'], ['String']);
+      if (data.hasOwnProperty('agency_urls')) {
+        obj['agency_urls'] = ApiClient.convertToType(data['agency_urls'], ['String']);
       }
-      if (data.hasOwnProperty('agencyPrice')) {
-        obj['agencyPrice'] = Price.constructFromObject(data['agencyPrice']);
+      if (data.hasOwnProperty('agency_price')) {
+        obj['agency_price'] = Price.constructFromObject(data['agency_price']);
       }
       if (data.hasOwnProperty('tags')) {
         obj['tags'] = ApiClient.convertToType(data['tags'], [Tag]);
@@ -299,17 +308,20 @@
       if (data.hasOwnProperty('verticals')) {
         obj['verticals'] = ApiClient.convertToType(data['verticals'], [Vertical]);
       }
-      if (data.hasOwnProperty('orderBoxElements')) {
-        obj['orderBoxElements'] = ApiClient.convertToType(data['orderBoxElements'], ['String']);
+      if (data.hasOwnProperty('order_box_elements')) {
+        obj['order_box_elements'] = ApiClient.convertToType(data['order_box_elements'], ['String']);
       }
       if (data.hasOwnProperty('giftable')) {
         obj['giftable'] = ApiClient.convertToType(data['giftable'], 'Boolean');
       }
-      if (data.hasOwnProperty('hasPassengerInfo')) {
-        obj['hasPassengerInfo'] = ApiClient.convertToType(data['hasPassengerInfo'], 'Boolean');
+      if (data.hasOwnProperty('has_passenger_info')) {
+        obj['has_passenger_info'] = ApiClient.convertToType(data['has_passenger_info'], 'Boolean');
       }
-      if (data.hasOwnProperty('hasExtraCustomerData')) {
-        obj['hasExtraCustomerData'] = ApiClient.convertToType(data['hasExtraCustomerData'], 'Boolean');
+      if (data.hasOwnProperty('has_extra_customer_data')) {
+        obj['has_extra_customer_data'] = ApiClient.convertToType(data['has_extra_customer_data'], 'Boolean');
+      }
+      if (data.hasOwnProperty('buy_multiplier')) {
+        obj['buy_multiplier'] = ApiClient.convertToType(data['buy_multiplier'], 'Number');
       }
       if (data.hasOwnProperty('realtimeCapable')) {
         obj['realtimeCapable'] = ApiClient.convertToType(data['realtimeCapable'], 'Boolean');
@@ -341,30 +353,30 @@
    */
   exports.prototype['relevance'] = undefined;
   /**
-   * @member {Number} relevanceVenue
+   * @member {Number} relevance_venue
    */
-  exports.prototype['relevanceVenue'] = undefined;
+  exports.prototype['relevance_venue'] = undefined;
   /**
-   * @member {Number} maxConfirmationTime
+   * @member {Number} max_confirmation_time
    */
-  exports.prototype['maxConfirmationTime'] = undefined;
+  exports.prototype['max_confirmation_time'] = undefined;
   /**
-   * @member {Boolean} mustSee
+   * @member {Boolean} must_see
    */
-  exports.prototype['mustSee'] = undefined;
+  exports.prototype['must_see'] = undefined;
   /**
-   * @member {Boolean} lastChance
+   * @member {Boolean} last_chance
    */
-  exports.prototype['lastChance'] = undefined;
+  exports.prototype['last_chance'] = undefined;
   /**
-   * @member {Boolean} topSeller
+   * @member {Boolean} top_seller
    */
-  exports.prototype['topSeller'] = undefined;
+  exports.prototype['top_seller'] = undefined;
   /**
    * Voucher must be printed to access the activity
-   * @member {Boolean} printVoucher
+   * @member {Boolean} print_voucher
    */
-  exports.prototype['printVoucher'] = undefined;
+  exports.prototype['print_voucher'] = undefined;
   /**
    * @member {Boolean} temporary
    */
@@ -378,59 +390,67 @@
    */
   exports.prototype['about'] = undefined;
   /**
-   * @member {String} aboutMarkdown
+   * @member {String} about_markdown
    */
-  exports.prototype['aboutMarkdown'] = undefined;
+  exports.prototype['about_markdown'] = undefined;
   /**
-   * @member {String} aboutHtml
+   * @member {String} about_html
    */
-  exports.prototype['aboutHtml'] = undefined;
+  exports.prototype['about_html'] = undefined;
   /**
-   * @member {String} meetingPoint
+   * @member {String} meeting_point
    */
-  exports.prototype['meetingPoint'] = undefined;
+  exports.prototype['meeting_point'] = undefined;
   /**
-   * @member {String} openingHours
+   * @member {String} opening_hours
    */
-  exports.prototype['openingHours'] = undefined;
+  exports.prototype['opening_hours'] = undefined;
   /**
-   * @member {Boolean} numberedSeats
+   * @member {String} duration
    */
-  exports.prototype['numberedSeats'] = undefined;
+  exports.prototype['duration'] = undefined;
+  /**
+   * @member {String} validity
+   */
+  exports.prototype['validity'] = undefined;
+  /**
+   * @member {Boolean} numbered_seats
+   */
+  exports.prototype['numbered_seats'] = undefined;
   /**
    * If true the call GET /events/{id}/dates returns prices for each day.
-   * @member {Boolean} hasPriceInfoOnDate
+   * @member {Boolean} has_price_info_on_date
    */
-  exports.prototype['hasPriceInfoOnDate'] = undefined;
+  exports.prototype['has_price_info_on_date'] = undefined;
   /**
    * Define if the Event is with open dates entrance (aka: Event::isOpenTicket).
    * @member {Boolean} open
    */
   exports.prototype['open'] = undefined;
   /**
-   * @member {Boolean} ticketNotIncluded
+   * @member {Boolean} ticket_not_included
    */
-  exports.prototype['ticketNotIncluded'] = undefined;
+  exports.prototype['ticket_not_included'] = undefined;
   /**
-   * @member {Boolean} likelyToSellOut
+   * @member {Boolean} likely_to_sell_out
    */
-  exports.prototype['likelyToSellOut'] = undefined;
+  exports.prototype['likely_to_sell_out'] = undefined;
   /**
-   * @member {Boolean} specialOffer
+   * @member {Boolean} special_offer
    */
-  exports.prototype['specialOffer'] = undefined;
+  exports.prototype['special_offer'] = undefined;
   /**
    * @member {Boolean} exclusive
    */
   exports.prototype['exclusive'] = undefined;
   /**
-   * @member {Number} includedHotelNightNumber
+   * @member {Number} included_hotel_night_number
    */
-  exports.prototype['includedHotelNightNumber'] = undefined;
+  exports.prototype['included_hotel_night_number'] = undefined;
   /**
-   * @member {Number} greenFeeDays
+   * @member {Number} green_fee_days
    */
-  exports.prototype['greenFeeDays'] = undefined;
+  exports.prototype['green_fee_days'] = undefined;
   /**
    * Define if the Event is with \"daily tickets\" (aka: Event::getDailyTickets) This causes for example: to hide \"time block\" in Orderbox.
    * @member {Boolean} daily
@@ -441,9 +461,9 @@
    */
   exports.prototype['languages'] = undefined;
   /**
-   * @member {Array.<String>} groupSize
+   * @member {Array.<String>} group_size
    */
-  exports.prototype['groupSize'] = undefined;
+  exports.prototype['group_size'] = undefined;
   /**
    * @member {Array.<module:model/TranslatedMetadata>} food
    */
@@ -469,41 +489,41 @@
    */
   exports.prototype['included'] = undefined;
   /**
-   * @member {Array.<String>} notIncluded
+   * @member {Array.<String>} not_included
    */
-  exports.prototype['notIncluded'] = undefined;
+  exports.prototype['not_included'] = undefined;
   /**
-   * @member {Boolean} isAvailableToday
+   * @member {Boolean} is_available_today
    */
-  exports.prototype['isAvailableToday'] = undefined;
+  exports.prototype['is_available_today'] = undefined;
   /**
-   * @member {Boolean} isAvailableTomorrow
+   * @member {Boolean} is_available_tomorrow
    */
-  exports.prototype['isAvailableTomorrow'] = undefined;
+  exports.prototype['is_available_tomorrow'] = undefined;
   /**
-   * @member {Boolean} hasMultipleOptions
+   * @member {Boolean} has_multiple_options
    */
-  exports.prototype['hasMultipleOptions'] = undefined;
+  exports.prototype['has_multiple_options'] = undefined;
   /**
-   * @member {String} coverImageUrl
+   * @member {String} cover_image_url
    */
-  exports.prototype['coverImageUrl'] = undefined;
+  exports.prototype['cover_image_url'] = undefined;
   /**
-   * @member {String} extraMediaUrl
+   * @member {String} extra_media_url
    */
-  exports.prototype['extraMediaUrl'] = undefined;
+  exports.prototype['extra_media_url'] = undefined;
   /**
-   * @member {module:model/Price} retailPrice
+   * @member {module:model/Price} retail_price
    */
-  exports.prototype['retailPrice'] = undefined;
+  exports.prototype['retail_price'] = undefined;
   /**
-   * @member {module:model/Price} netPrice
+   * @member {module:model/Price} net_price
    */
-  exports.prototype['netPrice'] = undefined;
+  exports.prototype['net_price'] = undefined;
   /**
-   * @member {module:model/Price} bundledPrice
+   * @member {module:model/Price} bundled_price
    */
-  exports.prototype['bundledPrice'] = undefined;
+  exports.prototype['bundled_price'] = undefined;
   /**
    * @member {Number} discount
    */
@@ -517,17 +537,17 @@
    */
   exports.prototype['categories'] = undefined;
   /**
-   * @member {Number} reviewsNumber
+   * @member {Number} reviews_number
    */
-  exports.prototype['reviewsNumber'] = undefined;
+  exports.prototype['reviews_number'] = undefined;
   /**
-   * @member {Number} reviewsAvg
+   * @member {Number} reviews_avg
    */
-  exports.prototype['reviewsAvg'] = undefined;
+  exports.prototype['reviews_avg'] = undefined;
   /**
-   * @member {Array.<String>} reviewsAggregatedInfo
+   * @member {module:model/ReviewsAggregatedInfo} reviews_aggregated_info
    */
-  exports.prototype['reviewsAggregatedInfo'] = undefined;
+  exports.prototype['reviews_aggregated_info'] = undefined;
   /**
    * @member {Number} latitude
    */
@@ -541,13 +561,13 @@
    */
   exports.prototype['url'] = undefined;
   /**
-   * @member {Array.<String>} agencyUrls
+   * @member {Array.<String>} agency_urls
    */
-  exports.prototype['agencyUrls'] = undefined;
+  exports.prototype['agency_urls'] = undefined;
   /**
-   * @member {module:model/Price} agencyPrice
+   * @member {module:model/Price} agency_price
    */
-  exports.prototype['agencyPrice'] = undefined;
+  exports.prototype['agency_price'] = undefined;
   /**
    * @member {Array.<module:model/Tag>} tags
    */
@@ -561,21 +581,25 @@
    */
   exports.prototype['verticals'] = undefined;
   /**
-   * @member {Array.<String>} orderBoxElements
+   * @member {Array.<String>} order_box_elements
    */
-  exports.prototype['orderBoxElements'] = undefined;
+  exports.prototype['order_box_elements'] = undefined;
   /**
    * @member {Boolean} giftable
    */
   exports.prototype['giftable'] = undefined;
   /**
-   * @member {Boolean} hasPassengerInfo
+   * @member {Boolean} has_passenger_info
    */
-  exports.prototype['hasPassengerInfo'] = undefined;
+  exports.prototype['has_passenger_info'] = undefined;
   /**
-   * @member {Boolean} hasExtraCustomerData
+   * @member {Boolean} has_extra_customer_data
    */
-  exports.prototype['hasExtraCustomerData'] = undefined;
+  exports.prototype['has_extra_customer_data'] = undefined;
+  /**
+   * @member {Number} buy_multiplier
+   */
+  exports.prototype['buy_multiplier'] = undefined;
   /**
    * Define if the Event is \"realtimeCapable\".
    * @member {Boolean} realtimeCapable

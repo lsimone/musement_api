@@ -71,8 +71,8 @@
       if (data.hasOwnProperty('uuid')) {
         obj['uuid'] = ApiClient.convertToType(data['uuid'], 'String');
       }
-      if (data.hasOwnProperty('cartId')) {
-        obj['cartId'] = ApiClient.convertToType(data['cartId'], 'Number');
+      if (data.hasOwnProperty('cart_id')) {
+        obj['cart_id'] = ApiClient.convertToType(data['cart_id'], 'Number');
       }
       if (data.hasOwnProperty('product')) {
         obj['product'] = Product.constructFromObject(data['product']);
@@ -83,11 +83,11 @@
       if (data.hasOwnProperty('quantity')) {
         obj['quantity'] = ApiClient.convertToType(data['quantity'], 'Number');
       }
-      if (data.hasOwnProperty('totalPrice')) {
-        obj['totalPrice'] = Price.constructFromObject(data['totalPrice']);
+      if (data.hasOwnProperty('total_price')) {
+        obj['total_price'] = Price.constructFromObject(data['total_price']);
       }
-      if (data.hasOwnProperty('passengersInfo')) {
-        obj['passengersInfo'] = ApiClient.convertToType(data['passengersInfo'], [PassengerInfo]);
+      if (data.hasOwnProperty('passengers_info')) {
+        obj['passengers_info'] = ApiClient.convertToType(data['passengers_info'], [PassengerInfo]);
       }
       if (data.hasOwnProperty('metadata')) {
         obj['metadata'] = TicketMetadata.constructFromObject(data['metadata']);
@@ -108,9 +108,9 @@
    */
   exports.prototype['uuid'] = undefined;
   /**
-   * @member {Number} cartId
+   * @member {Number} cart_id
    */
-  exports.prototype['cartId'] = undefined;
+  exports.prototype['cart_id'] = undefined;
   /**
    * @member {module:model/Product} product
    */
@@ -124,13 +124,13 @@
    */
   exports.prototype['quantity'] = undefined;
   /**
-   * @member {module:model/Price} totalPrice
+   * @member {module:model/Price} total_price
    */
-  exports.prototype['totalPrice'] = undefined;
+  exports.prototype['total_price'] = undefined;
   /**
-   * @member {Array.<module:model/PassengerInfo>} passengersInfo
+   * @member {Array.<module:model/PassengerInfo>} passengers_info
    */
-  exports.prototype['passengersInfo'] = undefined;
+  exports.prototype['passengers_info'] = undefined;
   /**
    * @member {module:model/TicketMetadata} metadata
    */

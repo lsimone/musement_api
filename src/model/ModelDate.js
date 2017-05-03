@@ -66,17 +66,17 @@
       if (data.hasOwnProperty('day')) {
         obj['day'] = ApiClient.convertToType(data['day'], 'String');
       }
-      if (data.hasOwnProperty('soldOut')) {
-        obj['soldOut'] = ApiClient.convertToType(data['soldOut'], 'Boolean');
+      if (data.hasOwnProperty('sold_out')) {
+        obj['sold_out'] = ApiClient.convertToType(data['sold_out'], 'Boolean');
       }
       if (data.hasOwnProperty('price')) {
         obj['price'] = Price.constructFromObject(data['price']);
       }
-      if (data.hasOwnProperty('discountedPrice')) {
-        obj['discountedPrice'] = Price.constructFromObject(data['discountedPrice']);
+      if (data.hasOwnProperty('discounted_price')) {
+        obj['discounted_price'] = Price.constructFromObject(data['discounted_price']);
       }
-      if (data.hasOwnProperty('discountAmount')) {
-        obj['discountAmount'] = Price.constructFromObject(data['discountAmount']);
+      if (data.hasOwnProperty('discount_amount')) {
+        obj['discount_amount'] = Price.constructFromObject(data['discount_amount']);
       }
     }
     return obj;
@@ -87,21 +87,21 @@
    */
   exports.prototype['day'] = undefined;
   /**
-   * @member {Boolean} soldOut
+   * @member {Boolean} sold_out
    */
-  exports.prototype['soldOut'] = undefined;
+  exports.prototype['sold_out'] = undefined;
   /**
    * @member {module:model/Price} price
    */
   exports.prototype['price'] = undefined;
   /**
-   * @member {module:model/Price} discountedPrice
+   * @member {module:model/Price} discounted_price
    */
-  exports.prototype['discountedPrice'] = undefined;
+  exports.prototype['discounted_price'] = undefined;
   /**
-   * @member {module:model/Price} discountAmount
+   * @member {module:model/Price} discount_amount
    */
-  exports.prototype['discountAmount'] = undefined;
+  exports.prototype['discount_amount'] = undefined;
 
 
 

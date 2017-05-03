@@ -60,13 +60,13 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property discountType (base name: "discountType")', function() {
+    it('should have the property discountType (base name: "discount_type")', function() {
       // uncomment below and update the code to test the property discountType
       //var instane = new MusementApi.Bundle();
       //expect(instance).to.be();
     });
 
-    it('should have the property bundleType (base name: "bundleType")', function() {
+    it('should have the property bundleType (base name: "bundle_type")', function() {
       // uncomment below and update the code to test the property bundleType
       //var instane = new MusementApi.Bundle();
       //expect(instance).to.be();

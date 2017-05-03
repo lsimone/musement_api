@@ -60,8 +60,8 @@
     if (data) {
       obj = obj || new exports();
 
-      if (data.hasOwnProperty('holderCode')) {
-        obj['holderCode'] = ApiClient.convertToType(data['holderCode'], 'String');
+      if (data.hasOwnProperty('holder_code')) {
+        obj['holder_code'] = ApiClient.convertToType(data['holder_code'], 'String');
       }
       if (data.hasOwnProperty('quantity')) {
         obj['quantity'] = ApiClient.convertToType(data['quantity'], 'Number');
@@ -71,9 +71,9 @@
   }
 
   /**
-   * @member {String} holderCode
+   * @member {String} holder_code
    */
-  exports.prototype['holderCode'] = undefined;
+  exports.prototype['holder_code'] = undefined;
   /**
    * @member {Number} quantity
    */

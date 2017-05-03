@@ -66,7 +66,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property passengersInfo (base name: "passengersInfo")', function() {
+    it('should have the property passengersInfo (base name: "passengers_info")', function() {
       // uncomment below and update the code to test the property passengersInfo
       //var instane = new MusementApi.TicketRequest();
       //expect(instance).to.be();

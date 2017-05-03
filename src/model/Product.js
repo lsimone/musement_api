@@ -81,11 +81,11 @@
       if (data.hasOwnProperty('datetime')) {
         obj['datetime'] = ApiClient.convertToType(data['datetime'], 'Date');
       }
-      if (data.hasOwnProperty('touristCategory')) {
-        obj['touristCategory'] = ApiClient.convertToType(data['touristCategory'], 'String');
+      if (data.hasOwnProperty('tourist_category')) {
+        obj['tourist_category'] = ApiClient.convertToType(data['tourist_category'], 'String');
       }
-      if (data.hasOwnProperty('activityName')) {
-        obj['activityName'] = ApiClient.convertToType(data['activityName'], 'String');
+      if (data.hasOwnProperty('activity_name')) {
+        obj['activity_name'] = ApiClient.convertToType(data['activity_name'], 'String');
       }
       if (data.hasOwnProperty('activity')) {
         obj['activity'] = Event.constructFromObject(data['activity']);
@@ -93,14 +93,14 @@
       if (data.hasOwnProperty('image')) {
         obj['image'] = ApiClient.convertToType(data['image'], 'String');
       }
-      if (data.hasOwnProperty('finalPrice')) {
-        obj['finalPrice'] = Price.constructFromObject(data['finalPrice']);
+      if (data.hasOwnProperty('final_price')) {
+        obj['final_price'] = Price.constructFromObject(data['final_price']);
       }
-      if (data.hasOwnProperty('discountAmount')) {
-        obj['discountAmount'] = Price.constructFromObject(data['discountAmount']);
+      if (data.hasOwnProperty('discount_amount')) {
+        obj['discount_amount'] = Price.constructFromObject(data['discount_amount']);
       }
-      if (data.hasOwnProperty('serviceFee')) {
-        obj['serviceFee'] = Price.constructFromObject(data['serviceFee']);
+      if (data.hasOwnProperty('service_fee')) {
+        obj['service_fee'] = Price.constructFromObject(data['service_fee']);
       }
     }
     return obj;
@@ -124,13 +124,13 @@
    */
   exports.prototype['datetime'] = undefined;
   /**
-   * @member {String} touristCategory
+   * @member {String} tourist_category
    */
-  exports.prototype['touristCategory'] = undefined;
+  exports.prototype['tourist_category'] = undefined;
   /**
-   * @member {String} activityName
+   * @member {String} activity_name
    */
-  exports.prototype['activityName'] = undefined;
+  exports.prototype['activity_name'] = undefined;
   /**
    * @member {module:model/Event} activity
    */
@@ -140,17 +140,17 @@
    */
   exports.prototype['image'] = undefined;
   /**
-   * @member {module:model/Price} finalPrice
+   * @member {module:model/Price} final_price
    */
-  exports.prototype['finalPrice'] = undefined;
+  exports.prototype['final_price'] = undefined;
   /**
-   * @member {module:model/Price} discountAmount
+   * @member {module:model/Price} discount_amount
    */
-  exports.prototype['discountAmount'] = undefined;
+  exports.prototype['discount_amount'] = undefined;
   /**
-   * @member {module:model/Price} serviceFee
+   * @member {module:model/Price} service_fee
    */
-  exports.prototype['serviceFee'] = undefined;
+  exports.prototype['service_fee'] = undefined;
 
 
 

@@ -60,7 +60,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property imageUrl (base name: "imageUrl")', function() {
+    it('should have the property imageUrl (base name: "image_url")', function() {
       // uncomment below and update the code to test the property imageUrl
       //var instane = new MusementApi.Barcode();
       //expect(instance).to.be();

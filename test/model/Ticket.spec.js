@@ -60,7 +60,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property cartId (base name: "cartId")', function() {
+    it('should have the property cartId (base name: "cart_id")', function() {
       // uncomment below and update the code to test the property cartId
       //var instane = new MusementApi.Ticket();
       //expect(instance).to.be();
@@ -84,13 +84,13 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property totalPrice (base name: "totalPrice")', function() {
+    it('should have the property totalPrice (base name: "total_price")', function() {
       // uncomment below and update the code to test the property totalPrice
       //var instane = new MusementApi.Ticket();
       //expect(instance).to.be();
     });
 
-    it('should have the property passengersInfo (base name: "passengersInfo")', function() {
+    it('should have the property passengersInfo (base name: "passengers_info")', function() {
       // uncomment below and update the code to test the property passengersInfo
       //var instane = new MusementApi.Ticket();
       //expect(instance).to.be();

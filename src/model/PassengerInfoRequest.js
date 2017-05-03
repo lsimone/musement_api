@@ -78,8 +78,8 @@
       if (data.hasOwnProperty('lastname')) {
         obj['lastname'] = ApiClient.convertToType(data['lastname'], 'String');
       }
-      if (data.hasOwnProperty('dateOfBirth')) {
-        obj['dateOfBirth'] = ApiClient.convertToType(data['dateOfBirth'], 'Date');
+      if (data.hasOwnProperty('date_of_birth')) {
+        obj['date_of_birth'] = ApiClient.convertToType(data['date_of_birth'], 'Date');
       }
       if (data.hasOwnProperty('passport')) {
         obj['passport'] = ApiClient.convertToType(data['passport'], 'String');
@@ -87,20 +87,20 @@
       if (data.hasOwnProperty('email')) {
         obj['email'] = ApiClient.convertToType(data['email'], 'String');
       }
-      if (data.hasOwnProperty('passportExpiryDate')) {
-        obj['passportExpiryDate'] = ApiClient.convertToType(data['passportExpiryDate'], 'Date');
+      if (data.hasOwnProperty('passport_expiry_date')) {
+        obj['passport_expiry_date'] = ApiClient.convertToType(data['passport_expiry_date'], 'Date');
       }
       if (data.hasOwnProperty('nationality')) {
         obj['nationality'] = ApiClient.convertToType(data['nationality'], 'String');
       }
-      if (data.hasOwnProperty('medicalNotes')) {
-        obj['medicalNotes'] = ApiClient.convertToType(data['medicalNotes'], 'String');
+      if (data.hasOwnProperty('medical_notes')) {
+        obj['medical_notes'] = ApiClient.convertToType(data['medical_notes'], 'String');
       }
       if (data.hasOwnProperty('address')) {
         obj['address'] = ApiClient.convertToType(data['address'], 'String');
       }
-      if (data.hasOwnProperty('fanCard')) {
-        obj['fanCard'] = ApiClient.convertToType(data['fanCard'], 'String');
+      if (data.hasOwnProperty('fan_card')) {
+        obj['fan_card'] = ApiClient.convertToType(data['fan_card'], 'String');
       }
     }
     return obj;
@@ -119,9 +119,9 @@
    */
   exports.prototype['lastname'] = undefined;
   /**
-   * @member {Date} dateOfBirth
+   * @member {Date} date_of_birth
    */
-  exports.prototype['dateOfBirth'] = undefined;
+  exports.prototype['date_of_birth'] = undefined;
   /**
    * @member {String} passport
    */
@@ -131,25 +131,25 @@
    */
   exports.prototype['email'] = undefined;
   /**
-   * @member {Date} passportExpiryDate
+   * @member {Date} passport_expiry_date
    */
-  exports.prototype['passportExpiryDate'] = undefined;
+  exports.prototype['passport_expiry_date'] = undefined;
   /**
    * @member {String} nationality
    */
   exports.prototype['nationality'] = undefined;
   /**
-   * @member {String} medicalNotes
+   * @member {String} medical_notes
    */
-  exports.prototype['medicalNotes'] = undefined;
+  exports.prototype['medical_notes'] = undefined;
   /**
    * @member {String} address
    */
   exports.prototype['address'] = undefined;
   /**
-   * @member {String} fanCard
+   * @member {String} fan_card
    */
-  exports.prototype['fanCard'] = undefined;
+  exports.prototype['fan_card'] = undefined;
 
 
 

@@ -84,13 +84,13 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property metaTitle (base name: "metaTitle")', function() {
+    it('should have the property metaTitle (base name: "meta_title")', function() {
       // uncomment below and update the code to test the property metaTitle
       //var instane = new MusementApi.BlogpostCategory();
       //expect(instance).to.be();
     });
 
-    it('should have the property backgroundImage (base name: "backgroundImage")', function() {
+    it('should have the property backgroundImage (base name: "background_image")', function() {
       // uncomment below and update the code to test the property backgroundImage
       //var instane = new MusementApi.BlogpostCategory();
       //expect(instance).to.be();

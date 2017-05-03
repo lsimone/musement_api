@@ -70,11 +70,11 @@
       if (data.hasOwnProperty('code')) {
         obj['code'] = ApiClient.convertToType(data['code'], 'String');
       }
-      if (data.hasOwnProperty('validFrom')) {
-        obj['validFrom'] = ApiClient.convertToType(data['validFrom'], 'Date');
+      if (data.hasOwnProperty('valid_from')) {
+        obj['valid_from'] = ApiClient.convertToType(data['valid_from'], 'Date');
       }
-      if (data.hasOwnProperty('validUntil')) {
-        obj['validUntil'] = ApiClient.convertToType(data['validUntil'], 'Date');
+      if (data.hasOwnProperty('valid_until')) {
+        obj['valid_until'] = ApiClient.convertToType(data['valid_until'], 'Date');
       }
       if (data.hasOwnProperty('created')) {
         obj['created'] = ApiClient.convertToType(data['created'], 'Date');
@@ -95,13 +95,13 @@
    */
   exports.prototype['code'] = undefined;
   /**
-   * @member {Date} validFrom
+   * @member {Date} valid_from
    */
-  exports.prototype['validFrom'] = undefined;
+  exports.prototype['valid_from'] = undefined;
   /**
-   * @member {Date} validUntil
+   * @member {Date} valid_until
    */
-  exports.prototype['validUntil'] = undefined;
+  exports.prototype['valid_until'] = undefined;
   /**
    * @member {Date} created
    */

@@ -70,11 +70,11 @@
       if (data.hasOwnProperty('code')) {
         obj['code'] = ApiClient.convertToType(data['code'], 'String');
       }
-      if (data.hasOwnProperty('itemId')) {
-        obj['itemId'] = ApiClient.convertToType(data['itemId'], 'Number');
+      if (data.hasOwnProperty('item_id')) {
+        obj['item_id'] = ApiClient.convertToType(data['item_id'], 'Number');
       }
-      if (data.hasOwnProperty('itemType')) {
-        obj['itemType'] = ApiClient.convertToType(data['itemType'], 'String');
+      if (data.hasOwnProperty('item_type')) {
+        obj['item_type'] = ApiClient.convertToType(data['item_type'], 'String');
       }
       if (data.hasOwnProperty('title')) {
         obj['title'] = ApiClient.convertToType(data['title'], 'String');
@@ -82,8 +82,8 @@
       if (data.hasOwnProperty('description')) {
         obj['description'] = ApiClient.convertToType(data['description'], 'String');
       }
-      if (data.hasOwnProperty('coverImageUrl')) {
-        obj['coverImageUrl'] = ApiClient.convertToType(data['coverImageUrl'], 'String');
+      if (data.hasOwnProperty('cover_image_url')) {
+        obj['cover_image_url'] = ApiClient.convertToType(data['cover_image_url'], 'String');
       }
       if (data.hasOwnProperty('city')) {
         obj['city'] = City.constructFromObject(data['city']);
@@ -103,13 +103,13 @@
    */
   exports.prototype['code'] = undefined;
   /**
-   * @member {Number} itemId
+   * @member {Number} item_id
    */
-  exports.prototype['itemId'] = undefined;
+  exports.prototype['item_id'] = undefined;
   /**
-   * @member {String} itemType
+   * @member {String} item_type
    */
-  exports.prototype['itemType'] = undefined;
+  exports.prototype['item_type'] = undefined;
   /**
    * @member {String} title
    */
@@ -119,9 +119,9 @@
    */
   exports.prototype['description'] = undefined;
   /**
-   * @member {String} coverImageUrl
+   * @member {String} cover_image_url
    */
-  exports.prototype['coverImageUrl'] = undefined;
+  exports.prototype['cover_image_url'] = undefined;
   /**
    * @member {module:model/City} city
    */

@@ -76,17 +76,17 @@
     if (data) {
       obj = obj || new exports();
 
-      if (data.hasOwnProperty('eventCount')) {
-        obj['eventCount'] = ApiClient.convertToType(data['eventCount'], 'Number');
+      if (data.hasOwnProperty('event_count')) {
+        obj['event_count'] = ApiClient.convertToType(data['event_count'], 'Number');
       }
-      if (data.hasOwnProperty('listCount')) {
-        obj['listCount'] = ApiClient.convertToType(data['listCount'], 'Number');
+      if (data.hasOwnProperty('list_count')) {
+        obj['list_count'] = ApiClient.convertToType(data['list_count'], 'Number');
       }
-      if (data.hasOwnProperty('venueCount')) {
-        obj['venueCount'] = ApiClient.convertToType(data['venueCount'], 'Number');
+      if (data.hasOwnProperty('venue_count')) {
+        obj['venue_count'] = ApiClient.convertToType(data['venue_count'], 'Number');
       }
-      if (data.hasOwnProperty('showInPopular')) {
-        obj['showInPopular'] = ApiClient.convertToType(data['showInPopular'], 'Boolean');
+      if (data.hasOwnProperty('show_in_popular')) {
+        obj['show_in_popular'] = ApiClient.convertToType(data['show_in_popular'], 'Boolean');
       }
       if (data.hasOwnProperty('id')) {
         obj['id'] = ApiClient.convertToType(data['id'], 'Number');
@@ -94,8 +94,8 @@
       if (data.hasOwnProperty('top')) {
         obj['top'] = ApiClient.convertToType(data['top'], 'Boolean');
       }
-      if (data.hasOwnProperty('hasConcierge')) {
-        obj['hasConcierge'] = ApiClient.convertToType(data['hasConcierge'], 'Boolean');
+      if (data.hasOwnProperty('has_concierge')) {
+        obj['has_concierge'] = ApiClient.convertToType(data['has_concierge'], 'Boolean');
       }
       if (data.hasOwnProperty('name')) {
         obj['name'] = ApiClient.convertToType(data['name'], 'String');
@@ -121,35 +121,35 @@
       if (data.hasOwnProperty('country')) {
         obj['country'] = Country.constructFromObject(data['country']);
       }
-      if (data.hasOwnProperty('coverImageUrl')) {
-        obj['coverImageUrl'] = ApiClient.convertToType(data['coverImageUrl'], 'String');
+      if (data.hasOwnProperty('cover_image_url')) {
+        obj['cover_image_url'] = ApiClient.convertToType(data['cover_image_url'], 'String');
       }
       if (data.hasOwnProperty('url')) {
         obj['url'] = ApiClient.convertToType(data['url'], 'String');
       }
-      if (data.hasOwnProperty('eventsCount')) {
-        obj['eventsCount'] = ApiClient.convertToType(data['eventsCount'], 'Number');
+      if (data.hasOwnProperty('events_count')) {
+        obj['events_count'] = ApiClient.convertToType(data['events_count'], 'Number');
       }
     }
     return obj;
   }
 
   /**
-   * @member {Number} eventCount
+   * @member {Number} event_count
    */
-  exports.prototype['eventCount'] = undefined;
+  exports.prototype['event_count'] = undefined;
   /**
-   * @member {Number} listCount
+   * @member {Number} list_count
    */
-  exports.prototype['listCount'] = undefined;
+  exports.prototype['list_count'] = undefined;
   /**
-   * @member {Number} venueCount
+   * @member {Number} venue_count
    */
-  exports.prototype['venueCount'] = undefined;
+  exports.prototype['venue_count'] = undefined;
   /**
-   * @member {Boolean} showInPopular
+   * @member {Boolean} show_in_popular
    */
-  exports.prototype['showInPopular'] = undefined;
+  exports.prototype['show_in_popular'] = undefined;
   /**
    * @member {Number} id
    */
@@ -161,9 +161,9 @@
   exports.prototype['top'] = undefined;
   /**
    * True for cities with Musement's concierge service active
-   * @member {Boolean} hasConcierge
+   * @member {Boolean} has_concierge
    */
-  exports.prototype['hasConcierge'] = undefined;
+  exports.prototype['has_concierge'] = undefined;
   /**
    * City name
    * @member {String} name
@@ -200,18 +200,18 @@
    */
   exports.prototype['country'] = undefined;
   /**
-   * @member {String} coverImageUrl
+   * @member {String} cover_image_url
    */
-  exports.prototype['coverImageUrl'] = undefined;
+  exports.prototype['cover_image_url'] = undefined;
   /**
    * @member {String} url
    */
   exports.prototype['url'] = undefined;
   /**
    * Number of active events
-   * @member {Number} eventsCount
+   * @member {Number} events_count
    */
-  exports.prototype['eventsCount'] = undefined;
+  exports.prototype['events_count'] = undefined;
 
 
 

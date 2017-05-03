@@ -54,7 +54,7 @@
       //expect(instance).to.be.a(MusementApi.BlogpostBlockEmbeddedHtml);
     });
 
-    it('should have the property embeddedCode (base name: "embeddedCode")', function() {
+    it('should have the property embeddedCode (base name: "embedded_code")', function() {
       // uncomment below and update the code to test the property embeddedCode
       //var instane = new MusementApi.BlogpostBlockEmbeddedHtml();
       //expect(instance).to.be();

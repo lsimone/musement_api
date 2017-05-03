@@ -79,17 +79,17 @@
       if (data.hasOwnProperty('abstract')) {
         obj['abstract'] = ApiClient.convertToType(data['abstract'], 'String');
       }
-      if (data.hasOwnProperty('publishDate')) {
-        obj['publishDate'] = ApiClient.convertToType(data['publishDate'], 'Date');
+      if (data.hasOwnProperty('publish_date')) {
+        obj['publish_date'] = ApiClient.convertToType(data['publish_date'], 'Date');
       }
       if (data.hasOwnProperty('url')) {
         obj['url'] = ApiClient.convertToType(data['url'], 'String');
       }
-      if (data.hasOwnProperty('backgroundImage')) {
-        obj['backgroundImage'] = ApiClient.convertToType(data['backgroundImage'], 'String');
+      if (data.hasOwnProperty('background_image')) {
+        obj['background_image'] = ApiClient.convertToType(data['background_image'], 'String');
       }
-      if (data.hasOwnProperty('backgroundImageCredits')) {
-        obj['backgroundImageCredits'] = ApiClient.convertToType(data['backgroundImageCredits'], 'String');
+      if (data.hasOwnProperty('background_image_credits')) {
+        obj['background_image_credits'] = ApiClient.convertToType(data['background_image_credits'], 'String');
       }
       if (data.hasOwnProperty('categories')) {
         obj['categories'] = ApiClient.convertToType(data['categories'], [BlogpostCategory]);
@@ -103,8 +103,8 @@
       if (data.hasOwnProperty('author')) {
         obj['author'] = Blogger.constructFromObject(data['author']);
       }
-      if (data.hasOwnProperty('shareImage')) {
-        obj['shareImage'] = ApiClient.convertToType(data['shareImage'], 'String');
+      if (data.hasOwnProperty('share_image')) {
+        obj['share_image'] = ApiClient.convertToType(data['share_image'], 'String');
       }
     }
     return obj;
@@ -123,21 +123,21 @@
    */
   exports.prototype['abstract'] = undefined;
   /**
-   * @member {Date} publishDate
+   * @member {Date} publish_date
    */
-  exports.prototype['publishDate'] = undefined;
+  exports.prototype['publish_date'] = undefined;
   /**
    * @member {String} url
    */
   exports.prototype['url'] = undefined;
   /**
-   * @member {String} backgroundImage
+   * @member {String} background_image
    */
-  exports.prototype['backgroundImage'] = undefined;
+  exports.prototype['background_image'] = undefined;
   /**
-   * @member {String} backgroundImageCredits
+   * @member {String} background_image_credits
    */
-  exports.prototype['backgroundImageCredits'] = undefined;
+  exports.prototype['background_image_credits'] = undefined;
   /**
    * @member {Array.<module:model/BlogpostCategory>} categories
    */
@@ -155,9 +155,9 @@
    */
   exports.prototype['author'] = undefined;
   /**
-   * @member {String} shareImage
+   * @member {String} share_image
    */
-  exports.prototype['shareImage'] = undefined;
+  exports.prototype['share_image'] = undefined;
 
 
 

@@ -70,11 +70,11 @@
       if (data.hasOwnProperty('code')) {
         obj['code'] = ApiClient.convertToType(data['code'], 'String');
       }
-      if (data.hasOwnProperty('priceFeature')) {
-        obj['priceFeature'] = ApiClient.convertToType(data['priceFeature'], 'String');
+      if (data.hasOwnProperty('price_feature')) {
+        obj['price_feature'] = ApiClient.convertToType(data['price_feature'], 'String');
       }
-      if (data.hasOwnProperty('ticketHolder')) {
-        obj['ticketHolder'] = ApiClient.convertToType(data['ticketHolder'], 'String');
+      if (data.hasOwnProperty('ticket_holder')) {
+        obj['ticket_holder'] = ApiClient.convertToType(data['ticket_holder'], 'String');
       }
       if (data.hasOwnProperty('name')) {
         obj['name'] = ApiClient.convertToType(data['name'], 'String');
@@ -95,13 +95,13 @@
    */
   exports.prototype['code'] = undefined;
   /**
-   * @member {String} priceFeature
+   * @member {String} price_feature
    */
-  exports.prototype['priceFeature'] = undefined;
+  exports.prototype['price_feature'] = undefined;
   /**
-   * @member {String} ticketHolder
+   * @member {String} ticket_holder
    */
-  exports.prototype['ticketHolder'] = undefined;
+  exports.prototype['ticket_holder'] = undefined;
   /**
    * @member {String} name
    */

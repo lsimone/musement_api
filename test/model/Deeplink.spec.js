@@ -72,7 +72,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property apiUrl (base name: "apiUrl")', function() {
+    it('should have the property apiUrl (base name: "api_url")', function() {
       // uncomment below and update the code to test the property apiUrl
       //var instane = new MusementApi.Deeplink();
       //expect(instance).to.be();

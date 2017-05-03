@@ -65,11 +65,11 @@
       if (data.hasOwnProperty('discount')) {
         obj['discount'] = ApiClient.convertToType(data['discount'], 'Number');
       }
-      if (data.hasOwnProperty('discountType')) {
-        obj['discountType'] = ApiClient.convertToType(data['discountType'], 'String');
+      if (data.hasOwnProperty('discount_type')) {
+        obj['discount_type'] = ApiClient.convertToType(data['discount_type'], 'String');
       }
-      if (data.hasOwnProperty('bundleType')) {
-        obj['bundleType'] = ApiClient.convertToType(data['bundleType'], 'String');
+      if (data.hasOwnProperty('bundle_type')) {
+        obj['bundle_type'] = ApiClient.convertToType(data['bundle_type'], 'String');
       }
       if (data.hasOwnProperty('activities')) {
         obj['activities'] = ApiClient.convertToType(data['activities'], [Event]);
@@ -83,14 +83,14 @@
    */
   exports.prototype['discount'] = undefined;
   /**
-   * @member {String} discountType
+   * @member {String} discount_type
    */
-  exports.prototype['discountType'] = undefined;
+  exports.prototype['discount_type'] = undefined;
   /**
    * on_everything|from_second|no_discount
-   * @member {String} bundleType
+   * @member {String} bundle_type
    */
-  exports.prototype['bundleType'] = undefined;
+  exports.prototype['bundle_type'] = undefined;
   /**
    * @member {Array.<module:model/Event>} activities
    */

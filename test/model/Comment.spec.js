@@ -96,7 +96,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property sentAt (base name: "sentAt")', function() {
+    it('should have the property sentAt (base name: "sent_at")', function() {
       // uncomment below and update the code to test the property sentAt
       //var instane = new MusementApi.Comment();
       //expect(instance).to.be();

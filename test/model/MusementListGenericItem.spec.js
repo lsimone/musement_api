@@ -60,7 +60,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property publicType (base name: "publicType")', function() {
+    it('should have the property publicType (base name: "public_type")', function() {
       // uncomment below and update the code to test the property publicType
       //var instane = new MusementApi.MusementListGenericItem();
       //expect(instance).to.be();
@@ -78,7 +78,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property genericEvent (base name: "genericEvent")', function() {
+    it('should have the property genericEvent (base name: "generic_event")', function() {
       // uncomment below and update the code to test the property genericEvent
       //var instane = new MusementApi.MusementListGenericItem();
       //expect(instance).to.be();
